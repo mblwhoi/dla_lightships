@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+   <TITLE>Ambrose Channel Lightship</TITLE>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="Generator" CONTENT="Microsoft Word 97">
+   <META NAME="GENERATOR" CONTENT="Mozilla/3.01SGoldC-SGI (X11; I; IRIX64 6.4 IP27) [Netscape]">
+</HEAD>
+<BODY TEXT="#000000" BGCOLOR="#FFF8DC" LINK="#0000EE" VLINK="#551A8B" ALINK="#FF0000">
+
+<H1><FONT COLOR="#000099">Ambrose Channel Lightship 
+<HR WIDTH="100%"></FONT><FONT COLOR="#663366"><FONT SIZE=+2>Sub-Surface
+Data</FONT></FONT></H1>
+
+<P><A HREF="lightships_ambrose_amb_sal.dat">amb_sal.dat </A>- Surface and
+bottom seawater salinities tab delimited digitized by K.Elder WHOI from
+USCG Reports. Approximate <I><FONT COLOR="#FF6600">period Dec. 1955 - Dec.
+1971</FONT></I>. </P>
+
+<P><A HREF="lightships_ambrose_ambrose.ls">ambrose.ls</A> -&nbsp; Subsurface
+mbt (mechanical bathythermograph) data for the <I><FONT COLOR="#FF6600">period
+Dec 1955 - Nov. 1972</FONT></I> at 5 m intervals given to K. Elder by George
+Hiemerdinger who read it from an NCDC CDROM.&nbsp; Data format information
+is available <A HREF="lightships_meta_data_nodc_rom.html">here</A>. <BR>
+<FONT SIZE=-1>Apparently there were two groups reading the mbt slides,
+one at Woods Hole whose work was published in the Coast Guard Reports,
+and the other at NCDC. The NCDC group read the slide at 5 meter intervals
+whereas the WH group read them at 15 meter intervals.</FONT> </P>
+
+<P><A HREF="lightships_ambrose_ambrose_ls.kle">ambrose_ls.kle</A> - Data
+from ambrose.ls file -&nbsp; field names added, formatted and delimited
+by K. Elder. 
+<HR WIDTH="100%"></P>
+
+<H2><FONT COLOR="#663366"><FONT SIZE=+2>Meteorological Data</FONT></FONT></H2>
+
+<P><A HREF="lightships_ambrose_ambrose.td1129">ambrose.td1129</A> - Meteorological
+records (rsz=148 - TD-1129 sfc marine) pulled from TD-1129 marine database
+for the <I><FONT COLOR="#FF6600">period approximately 1970-1973</FONT></I>.
+File ftpd from NCDC October 1997 via Joe Elms. These data were keyed at
+NCDC as part of what he called the &quot;New York Bight Study&quot; led
+by Bill Brower (also at NCDC) much of which was merged into COADS data
+(&gt;1970). If you need the format for TD-1129 it can be copied off the
+web at <BR>
+<A HREF="http://www4.ncdc.noaa.gov/ol/documentlibrary/datasets.html#TD1129">http://www4.ncdc.noaa.gov/ol/documentlibrary/datasets.html#TD1129</A>
+<BR>
+or can be opened as a Microsoft Word document here <A HREF="lightships_meta_data_td1129.html">td1129.doc</A>.
+</P>
+
+<P><A HREF="lightships_ambrose_ambrose.tdf11">ambrose.tdf11</A> - Meteorological
+records (rsz=140 - TDF-11 sfc marine) ftpd from NCDC October 1997 via Joe
+Elms for the <I><FONT COLOR="#FF6600">period Jan 1961 - Mar 1973</FONT></I>.
+These data were also part of&nbsp; the &quot;New York Bight Study&quot;
+but the entire period was not merged into COADS data as of 1997.&nbsp;
+This file overlaps what is in TD1129 format above. <BR>
+&nbsp;&nbsp;&nbsp; The data collected and keyed at NCDC for the New York
+Bight Study were originally placed into the TDF-11 format with a few modifications.
+Deviations from the TDF-11 format for this file are that in positions 78-79
+in place of the Ocean Weather Station Number (OSV - Ocean Station Vessel)
+or Country Code they placed the last two digits of the ship number (e.g.
+Ambrose, 0501). Also in position 81 (OSV or ship indicator), a blank, 9,
+or 0 appears, the 9 always appears with 1960's data and 0 from the 1970's.
+Documentation for the TDF-11 format is not available digitally but I have
+separated the fields in the file listed next (<A HREF="lightships_ambrose_amb_tdf11.kle">amb_tdf11.kle)
+</A>and have supporting documentation for the data available <A HREF="lightships_meta_data_tdf11_kle_info.html">here</A>.
+<BR>
+&nbsp;&nbsp;&nbsp; Overpunches occur in this set and generally indicate
+a negative value.&nbsp; They are usually an 11 punch over a number which
+gets converted to a letter in a printout or for screen viewing.&nbsp;&nbsp;
+e.g. a letter J represents a negative value over a 1 , a K =-2, L= -3 ........Q=-8,
+and&nbsp; R = -9.&nbsp; An 11 punch over a 0 is generally not converted
+and what you see is a blank character, sometimes it appears as a left-handed
+brace (you may have to examine these punches in hex to see what was actually
+punched). </P>
+
+<P><A HREF="lightships_ambrose_amb_tdf11.kle">amb_tdf11.kle</A> - The data
+from <FONT COLOR="#003300">ambrose.tdf11</FONT> for the <I><FONT COLOR="#FF6600">period
+Jan 1961 - Mar 1973, </FONT></I>massaged by K. Elder; formatted into tab
+delimited labelled columns with overpunches converted to real numbers.
+The perl script <A HREF="lightships_utility_scripts_tdf11.perl">tdf11.perl</A>
+and awk script <A HREF="lightships_utility_scripts_jday.awk">jday.awk</A>
+was used for this work. A description of the fields can be found <A HREF="lightships_meta_data_tdf11_kle_info.html">here</A>.
+</P>
+
+<P><A HREF="lightships_ambrose_amb_sal.dat">amb_sal.dat </A>- Surface and
+bottom seawater salinities tab delimited digitized by K.Elder WHOI from
+USCG Reports. Approximate <I><FONT COLOR="#FF6600">period Dec. 1955 - Dec.
+1971</FONT></I>. </P>
+
+<P><A HREF="lightships_ambrose_ambrose.ls">ambrose.ls</A> -&nbsp; Subsurface
+mbt (mechanical bathythermograph) data for the <I><FONT COLOR="#FF6600">period
+Dec 1955 - Nov. 1972</FONT></I> at 5 m intervals given to K. Elder by George
+Hiemerdinger who read it from an NCDC CDROM.&nbsp; Data format information
+is available <A HREF="lightships_meta_data_nodc_rom.html">here</A>. <BR>
+<FONT SIZE=-1>Apparently there were two groups reading the mbt slides,
+one at Woods Hole whose work was published in the Coast Guard Reports,
+and the other at NCDC. The NCDC group read the slide at 5 meter intervals
+whereas the WH group read them at 15 meter intervals.</FONT> </P>
+
+<P><A HREF="lightships_ambrose_ambrose_ls.kle">ambrose_ls.kle</A> - Data
+from ambrose.ls file -&nbsp; field names added, formatted and delimited
+by K. Elder. </P>
+
+<P><A HREF="index.html">Return to lightship list</A></P>
+
+</BODY>
+</HTML>

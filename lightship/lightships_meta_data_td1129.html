@@ -1,0 +1,3324 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<META NAME="Generator" CONTENT="Microsoft Word 97">
+</HEAD>
+<BODY  LINK="#0000ff">
+
+<B><FONT FACE="Courier New" SIZE=4><P ALIGN="JUSTIFY"></P>
+<P ALIGN="JUSTIFY">&nbsp;</P>
+<P ALIGN="CENTER">National Climatic Data Center</P>
+<P ALIGN="CENTER">&nbsp;</P>
+<P ALIGN="CENTER">DATA DOCUMENTATION</P>
+<P ALIGN="CENTER">&nbsp;</P>
+<P ALIGN="CENTER">FOR</P>
+<P ALIGN="CENTER">&nbsp;</P>
+<P ALIGN="CENTER">DATA SET TD1129</P>
+<P ALIGN="CENTER">                                  </P>
+<P ALIGN="CENTER">11 February 1998</P>
+</FONT><FONT FACE="Courier New" SIZE=2><P ALIGN="CENTER">&nbsp;</P>
+<P ALIGN="RIGHT">&nbsp;</P>
+<P ALIGN="CENTER">National Climatic Data Center</P>
+<P ALIGN="CENTER">151 Patton Ave.</P>
+<P ALIGN="CENTER">Asheville, NC  28801-5001  USA</P>
+<P ALIGN="RIGHT">&nbsp;</P>
+</B><P>&#9;Table of Contents</P>
+<P>&nbsp;</P>
+<P>      TOPIC                                                 PAGE</P>
+<P>________________________________________________________________</P>
+<P>INTRODUCTION                 </P>
+<P> 1.  Data Set ID..............................................1</P>
+<P> 2.  Data Set Name............................................1</P>
+<P> 3.  Data Set Aliases.........................................1</P>
+<P>________________________________________________________________</P>
+<P>DESCRIPTION</P>
+<P> 4.  Access Method and Sort for Archived Data.................1</P>
+<P> 5.  Access Method and Sort for Supplied Data.................1</P>
+<P> 6.  Element Names and Definitions............................1</P>
+<P> 7.  Start Date..............................................23</P>
+<P> 8.  Stop Date...............................................23</P>
+<P> 9.  Coverage................................................23</P>
+<P>10.  Location................................................23</P>
+<P>11.  Keyword.................................................23</P>
+<P>12.  How to Order Data.......................................23</P>
+<P>________________________________________________________________</P>
+<P>DATA CENTER</P>
+<P>13.  Archiving Data Center...................................23</P>
+<P>14.  Technical Contact.......................................24</P>
+<P>________________________________________________________________</P>
+<P>DATA QUALITY</P>
+<P>15.  Known Uncorrected Problems..............................24</P>
+<P>16.  Quality Statement.......................................27</P>
+<P>17.  Revision Date ..........................................27</P>
+<P>_______________________________________________________________</P>
+<P>OTHER DATA SETS</P>
+<P>18.  Source Data Sets........................................27</P>
+<P>19.  Essential Companion Data Sets...........................27</P>
+<P>20.  Derived Data Sets.......................................27</P>
+<P>________________________________________________________________</P>
+<P>SUMMARIZATION</P>
+<P>21.  References..............................................27</P>
+<P>22.  Summary.................................................27</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<B><P>1.   <U>Data Set ID:</P>
+</U><P>&nbsp;</P>
+</B><P>     1129</P>
+<B><P>&nbsp;</P>
+<P>2.   <U>Data Set Name:</P>
+</U><P>&nbsp;</P>
+</B><P>     Marine Data</P>
+<B><P>&nbsp;</P>
+<P>3.   <U>Data Set Aliases:</P>
+</U><P>&nbsp;</P>
+</B><P>     Surface Marine Data, TD-11, TDF-11</P>
+<B><P>&nbsp;</P>
+<P>4.   <U>Access Method and Sort for Archived Data:</P>
+</U><P>&nbsp;</P>
+<P>5.   <U>Access Method and Sort for Supplied Data:</P>
+</U><P>&nbsp;</P>
+<P>6.   <U>Element Names and Definitions:</P>
+</U><P>&nbsp;</P>
+</B><U><P>Data Element Definitions</P>
+</U><P>&nbsp;</P>
+<U><P>Source Deck No</U>.</P>
+<P>&nbsp;</P>
+<P>Originally, marine data were received or stored on computer cards.  Each card deck was assigned a number to define the data source.  Source deck numbers were retained when storage media changed and have been used to indicate general data quality.  The TD-1100 Reference Manual describes data formats according to source deck number.</P>
+<P>&nbsp;</P>
+<U><P>Table 1:  Data Included in the Surface Marine Data Set</P>
+</U><P>&nbsp;</P>
+<P>Decks with beginning dates of 1970 may be valid for years prior to 1970.  See COADS Release 1, TABLE F1-1, for the entire period of record by source deck.</P>
+<P>&nbsp;</P>
+<P>                                                  Source      Period of Record </P>
+<U><P>Source                                            Deck        (Month/Year)</P>
+</U><P>&nbsp;</P>
+<P>Pacific Marine Environmental Lab (PMEL)...........  143         01/75 - 12/77</P>
+<P>USSR Ice Island Observations......................  186         01/70 - 12/70</P>
+<P>Gulf Offshore Weather Observing Network (GOWON)...  500         01/82 - 12/82</P>
+<P>Monterey-Fleet Numerical Oceanography Center.....   555         01/70 - 06/73</P>
+<P>Tuna Boats........................................  666         03/71 - 05/75</P>
+<P>First GARP Global Experiment (FGGE)...............  849-850     12/78 - 11/79</P>
+<P>NOAA Data Buoy Center (NDBC)*</P>
+<P>     Drifting Buoys...............................  875         11/84 -</P>
+<P>     Fixed Buoys..................................  876-882     01/70 -</P>
+<P>     C-MAN........................................  882         03/83 -</P>
+<P>Global Telecommunications</P>
+<P>     Global Weather Central (AFGWC)...............  888         01/73 - 12/81</P>
+<P>     AUTODIN (US Navy Ships)......................  889         01/73</P>
+<P>     National Meteorological Center (NMC):</P>
+<P> NMC, Source Code not defined.................  890         01/80</P>
+<P> NMC Ship Data................................  892         01/80</P>
+<P>         NMC Fixed Buoy Data......................  893         01/80</P><DIR>
+
+<P> NMC Drifting Buoy Data.......................  894         01/80</P>
+<P> NMC Coastal Marine Stations, Other</P></DIR>
+
+<P>             Land Stations and Light Ships........  895         01/80</P><DIR>
+
+<P> NMC OSV, MARS and Other Sources..............  896         01/80</P></DIR>
+
+<P>National Oceanographic Data Center (NODC).........  891         01/70 - 06/77</P>
+<P>Japanese..........................................  898 (119)   01/70 - 04/74</P>
+<P>Australian........................................  900         01/70 - 12/79</P>
+<P>WMO Foreign Exchange Data (IMM)...................  926-927     01/70</P>
+<P>Great Lakes Manuscript............................  927         01/70</P>
+<P>US Merchant Manuscript............................  927         01/70</P>
+<P>US Navy Manuscript................................  927         01/70 - 12/79</P>
+<P>Ocean Station Vessel (OSV)........................  928 (926)   01/70 - 12/79</P>
+<P>______________________________________________________________________________</P>
+<P>Beginning in 1980, WMO foreign exchange data were assigned source deck 926, regardless of data year.  Some OSV data have also been assigned to deck 926.</P>
+<P>&nbsp;</P><DIR>
+
+<P>*&#9;Complete records of NDBC data are stored in TD-1171.  Observation from fixed and drifting buoys and C-MAN stations are available at lower time resolution (generally 3-hourly) in the 1129 file from NMC or after COADS updates.</P>
+<P>&nbsp;</P></DIR>
+
+<U><P>Standard Format Codes 1129</P>
+</U><P>&nbsp;</P>
+<P>Table 2 gives the standard 1129 format and element description for marine data archived for 1970 through the present time.  Formats for data prior to 1970 are given in the TD-11 Reference Manual for the Atlas data or in the Marine Data Users Reference, 1854-1969.</P>
+<P>&nbsp;</P>
+<P>Most of the codes used are standard WMO codes.  The codes are listed in Table 2 for easy reference.  See A.2 for a list of exceptions to WMO regulations.</P>
+<P>&nbsp;</P>
+<U><P>STANDARD</U> <U>FORMAT</U> <U>CODES</P>
+</U><P>&nbsp;</P>
+<P> RECORD                                 TAPE                  CODE DEFINITION</P>
+<U><P>POSITIONS</U>   <U>ELEMENT</U>                 <U>CONFIGURATION</U>               <U>AND REMARKS</P>
+</U><P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P> 01-03      SOURCE DECK NO.       &#9;000-999     &#9;Number of the source deck from</P>
+<P>&#9;&#9;           &#9; which the observations came</P>
+<P>&nbsp;</P>
+<P> 04-06&#9;MARSDEN SQ.&#9;001-936,999 &#9;See explanation of Marsden</P>
+<P>&#9;&#9;            Square system</P>
+<P>&nbsp;</P>
+<P> 07-08&#9;MARSDEN SUB-SQ.&#9;00-99       &#9;See explanation of Marsden </P>
+<P>&#9;&#9;&#9;            Square system</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P> </P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P> 09&#9;QUADRANT&#9;1-4</P>
+<P>&#9;&#9;1 = N Latitude and W Longitude</P>
+<P>&#9;&#9;2 = N Latitude and E Longitude</P>
+<P>&#9;&#9;3 = S Latitude and W Longitude</P>
+<P>&#9;&#9;4 = S Latitude and E Longitude</P>
+<P>&nbsp;</P>
+<P> 10-12&#9;LATITUDE&#9;000-900&#9;00.0<SUP>o</SUP> - 90.0<SUP>o</SUP> North or South</P>
+<P>&nbsp;</P>
+<P> 13-16&#9;LONGITUDE&#9;0000-1800&#9;000.0<SUP>o</SUP> - 180.0<SUP>o</SUP> East or West</P>
+<P>&nbsp;</P>
+<P> 17-20&#9;YEAR&#9;19xx&#9;xx = Any number</P>
+<P>&nbsp;</P>
+<P> 21-22&#9;MONTH&#9;01-12&#9;</P>
+<P>&#9;&#9;01 = January  07 = July</P>
+<P>&#9;&#9;02 = February      08 = August</P>
+<P>&#9;&#9;&#9;03 = March         09 = September</P>
+<P>&#9;&#9;04 = April         10 = October</P>
+<P>                       &#9;&#9;05 = May           11 = November</P>
+<P>                         &#9;&#9;06 = June          12 = December</P>
+<P>&nbsp;</P>
+<P> 23-24&#9;DAY&#9;01-31 &#9;Day of the month</P>
+<P>&nbsp;</P>
+<P> 25-26&#9;HOUR - GMT&#9;00-23 0000 GMT - 2300 GMT</P>
+<P>&nbsp;</P>
+<P> 27&#9;WIND DIR INDICATOR&#9;b,0,1,2&#9;b = 36 point scale</P>
+<P>0 = 32 point scale</P>
+<P>1 = 16 of 36 point scale</P>
+<P>2 = 16 of 32 point scale</P>
+<P>&nbsp;</P>
+<P> 28-29&#9;WIND DIRECTION&#9;00-36,99&#9; Direction from which the wind is</P>
+<P>&#9;&#9;         blowing.</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>b = blank field</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>            16 of     16 of</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>36 Pt        32 Pt     36 Pt     32 Pt</P>
+<P>00=Calm      Calm      Calm      Calm</P>
+<P>&nbsp;</P>
+<P>01=005-014<SUP>o</SUP>  006-016<SUP>o</SUP>    </P>
+<P>02=015-024<SUP>o</SUP>  017-028<SUP>o</SUP>  012-033<SUP>o</SUP>  012-034<SUP>o</P>
+</SUP><P>03=025-034<SUP>o</SUP>  029-039<SUP>o</SUP>  </P>
+<P>04=035-044<SUP>o</SUP>  040-050<SUP>o</SUP>            035-056<SUP>o</P>
+</SUP><P>05=045-054<SUP>o</SUP>  051-061<SUP>o</SUP>  034-056<SUP>o</SUP>  </P>
+<P>06=055-064<SUP>o</SUP>  062-073<SUP>o</SUP>            057-079<SUP>o</P>
+</SUP><P>07=065-074<SUP>o</SUP>  074-084<SUP>o</SUP>  057-078<SUP>o</P>
+</SUP><P>08=075-084<SUP>o</SUP>  085-095<SUP>o</SUP>            080-101<SUP>o</P>
+</SUP><P>09=085-094<SUP>o</SUP>  096-106<SUP>o</SUP>  079-101<SUP>o</P>
+</SUP><P>10=095-104<SUP>o</SUP>  107-118<SUP>o</SUP>            102-124<SUP>o</P>
+</SUP><P>11=105-114<SUP>o</SUP>  119-129<SUP>o</SUP>  102-123<SUP>o</P>
+</SUP><P>12=115-124<SUP>o</SUP>  130-140<SUP>o</SUP>            125-146<SUP>o</P>
+</SUP><P>13=125-134<SUP>o</SUP>  141-151<SUP>o</P>
+</SUP><P>14=135-144<SUP>o</SUP>  152-163<SUP>o</SUP>  124-146<SUP>o</SUP>  147-169<SUP>o</P>
+</SUP><P>15=145-154<SUP>o</SUP>  164-174<SUP>o</SUP> </P>
+<P>16=155-164<SUP>o</SUP>  175-185<SUP>o</SUP>  147-168<SUP>o</SUP>  170-191<SUP>o</P>
+</SUP><P>17=165-174<SUP>o</SUP>  186-196<SUP>o</P>
+</SUP><P>18=175-184<SUP>o</SUP>  197-208<SUP>o</SUP>  169-191<SUP>o</SUP>  192-214<SUP>o</P>
+</SUP><P>19=185-194<SUP>o</SUP>  209-219<SUP>o</P>
+</SUP><P>20=195-204<SUP>o</SUP>  220-230<SUP>o</SUP>  192-213<SUP>o</SUP>  215-236<SUP>o</P>
+</SUP><P>21=205-214<SUP>o</SUP>  231-241<SUP>o</SUP>  </P>
+<P>22=215-224<SUP>o</SUP>  242-253<SUP>o</SUP>            237-259<SUP>o</P>
+</SUP><P>23=225-234<SUP>o</SUP>  254-264<SUP>o</SUP>  214-236<SUP>o</SUP>  </P>
+<P>24=235-244<SUP>o</SUP>  265-275<SUP>o</SUP>            260-281<SUP>o</P>
+</SUP><P>25=245-254<SUP>o</SUP>  276-286<SUP>o</SUP>  237-258<SUP>o</P>
+</SUP><P>26=255-264<SUP>o</SUP>  287-298<SUP>o</SUP>            282-304<SUP>o</P>
+</SUP><P>27=265-274<SUP>o</SUP>  299-309<SUP>o</SUP>  259-281<SUP>o</P>
+</SUP><P>28=275-284<SUP>o</SUP>  310-320<SUP>o</SUP>            305-326<SUP>o</P>
+</SUP><P>29=285-294<SUP>o</SUP>  321-331<SUP>o</SUP>  282-303<SUP>o</P>
+</SUP><P>30=295-304<SUP>o</SUP>  332-343<SUP>o</SUP>            327-349<SUP>o</P>
+</SUP><P>31=305-314<SUP>o</SUP>  344-354<SUP>o</P>
+</SUP><P>32=315-324<SUP>o</SUP>  355-005<SUP>o</SUP>  304-326<SUP>o</SUP>  350-011<SUP>o</P>
+</SUP><P>33=325-334<SUP>o</SUP>  </P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>34=335-344<SUP>o</SUP>            327-348<SUP>o</P>
+</SUP><P>35=345-354<SUP>o</P>
+</SUP><P>36=355-004<SUP>o</SUP>            349-011<SUP>o</P>
+</SUP><P>99=Variable</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P> </P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P> 30         WIND SPEED INDICATOR    b,0&#9;           b = Not measured</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P> 31-33&#9;WIND SPEED&#9;000-199        000 = Calm</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>001-199 = 1 to 199 knots</P>
+<P>&nbsp;</P>
+<P> 34&#9;VISIBILITY INDICATOR&#9;b,0,1&#9;          b = Not measured</P>
+<P>0 = Measured</P>
+<P>1 = Fog present</P>
+<P>&nbsp;</P>
+<P> 35-36&#9;VISIBILITY&#9;90-99 &#9;Horizontal visibility at the surface in</P>
+<P>&#9;&#9;      kilometers</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>90 = &lt;0.05   NOTE:  When Visibility</P>
+<P>91 =  0.05   Indicator = 1, and</P>
+<P>92 =  0.2    Visibility = 93, it means</P>
+<P>93 =  0.5    that Fog was present and</P>
+<P>94 =  1      visibility was not</P>
+<P>95 =  2      reported.         </P>
+<P>96 =  4    </P>
+<P>97 =  10</P>
+<P>98 =  20 </P>
+<P>99 =  50 or more</P>
+<P>&nbsp;</P>
+<P> 37-38&#9;PRESENT WEATHER&#9;00-99</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>00 = Cloud development not observed.</P>
+<P>01 = Clouds generally dissolving or becoming less developed.</P>
+<P>02 = State of the sky unchanged.</P>
+<P>03 = Clouds generally forming or developing.</P>
+<P>04 = Visibility reduced by smoke.</P>
+<P>05 = Haze</P>
+<P>06 = Widespread dust in suspension in the air, not raised by wind, at or near</P>
+<P>     the station at the time of observation.</P>
+<P>07 = Dust or sand raised by wind at or near the station at the time of</P>
+<P>     observation, but no well developed dust whirls or sand whirls and no </P>
+<P>     duststorm or sandstorm seen.</P>
+<P>08 = Well developed dust whirls or sand whirls seen at or near the station</P>
+<P>     during the preceding hour or at the time of observation, but no duststorm </P>
+<P>     or sandstorm.</P>
+<P>09 = Duststorm or sandstorm within sight at the time of observation, or at the </P>
+<P>     station during the preceding hour.</P>
+<P>10 = Light fog (visibility 1,100 yards or more).  Synonymous with European </P>
+<P>     term "Mist".</P>
+<P>11 = Patches of shallow fog or ice fog at the station, not deeper than about </P>
+<P>     10 meters.</P>
+<P>12 = More or less continuous shallow fog or ice fog at the station, not deeper </P>
+<P>     than about 10 meters.</P>
+<P>13 = Lightning visible, no thunder heard.</P>
+<P>14 = Precipitation within sight, not reaching the surface of the sea.</P>
+<P>15 = Precipitation within sight, reaching the surface of the sea, but more</P>
+<P>     than 5 km. from the ship.</P>
+<P>16 = Precipitation within sight, reaching the surface of the sea, near to, but </P>
+<P>     not at the ship.</P>
+<P>17 = Thunderstorm, but no precipitation at the time of observation.</P>
+<P>18 = Squalls at or within sight of the ship during the preceding hour or at </P>
+<P>     the time of observation.</P>
+<P>19 = Funnel cloud or Waterspout at or within sight of the ship during the </P>
+<P>     preceding hour or at the time of observation.</P>
+<P>&nbsp;</P>
+<P>The following phenomena occurred at the ship during the preceding hour but not at the time of observation.</P>
+<P>&nbsp;</P>
+<P>20 = Drizzle (not freezing) or snow grains.</P>
+<P>21 = Rain (not freezing).</P>
+<P>22 = Snow</P>
+<P>23 = Rain and snow or ice pellets, type (a).</P>
+<P>24 = Freezing drizzle or freezing rain.</P>
+<P>25 = Shower(s) of rain.</P>
+<P>26 = Shower(s) of snow or of rain and snow.</P>
+<P>27 = Shower(s) of hail (ice pellets, type (b), snow pellets), or of rain and</P>
+<P>     hail (ice pellets, type (b), snow pellets).</P>
+<P>28 = Fog or ice fog.</P>
+<P>29 = Thunderstorm (with or without precipitation).</P>
+<P>&nbsp;</P>
+<P>Present weather codes 30-99 refer to phenomena occurring at the ship at time of observation.</P>
+<P>&nbsp;</P>
+<P>30 = Slight or moderate duststorm or sandstorm has decreased during the </P>
+<P>     preceding hour.</P>
+<P>31 = Slight or moderate duststorm or sandstorm, no appreciable change during </P>
+<P>     the preceding hour.</P>
+<P>32 = Slight or moderate duststorm or sandstorm has begun or has increased </P>
+<P>     during the preceding hour.</P>
+<P>33 = Severe duststorm or sandstorm has decreased during the preceding hour.</P>
+<P>34 = Severe duststorm or sandstorm, no appreciable change during the preceding </P>
+<P>     hour.</P>
+<P>35 = Severe duststorm or sandstorm has begun or has increased during the </P>
+<P>     preceding hour.</P>
+<P>36 = Slight or moderate drifting snow generally low (below eye level) less </P>
+<P>     than 6 feet.</P>
+<P>37 = Heavy drifting snow generally low (below eye level) less than 6 feet.</P>
+<P>38 = Slight or moderate blowing snow generally high (above eye level) 6 feet </P>
+<P>     or more.</P>
+<P>39 = Heavy blowing snow generally high (above eye level) 6 feet or more.</P>
+<P>40 = Fog or ice fog at a distance at the time of observation, but not at the </P>
+<P>     ship during the preceding hour, the fog or ice fog extending to a level </P>
+<P>     above that of the observer.</P>
+<P>41 = Fog or ice fog in patches.</P>
+<P>42 = Fog or ice fog, sky visible has become thinner during the preceding hour.</P>
+<P>43 = Fog or ice fog, sky invisible has become thinner during the preceding </P>
+<P>     hour.</P>
+<P>44 = Fog or ice fog, sky visible no appreciable change during the preceding </P>
+<P>     hour.</P>
+<P>45 = Fog or ice fog, sky invisible no appreciable change during the preceding </P>
+<P>     hour.</P>
+<P>46 = Fog or ice fog, sky visible has begun or has become thicker during the</P>
+<P>     preceding hour.</P>
+<P>47 = Fog or ice fog, sky invisible has begun or has become thicker during the </P>
+<P>     preceding hour.</P>
+<P>48 = Fog, depositing rime, sky visible.</P>
+<P>49 = Fog, depositing rime, sky invisible.</P>
+<P>50 = Drizzle, not freezing, intermittent slight at time of observation.</P>
+<P>51 = Drizzle, not freezing, continuous slight at time of observation.</P>
+<P>52 = Drizzle, not freezing, intermittent moderate at time of observation.</P>
+<P>53 = Drizzle, not freezing, continuous moderate at time of observation.</P>
+<P>54 = Drizzle, not freezing, intermittent heavy (dense) at time of observation.</P>
+<P>55 = Drizzle, not freezing, continuous heavy (dense) at time of observation.</P>
+<P>56 = Drizzle, freezing, slight.</P>
+<P>57 = Drizzle, freezing, moderate or heavy (dense).</P>
+<P>58 = Drizzle and rain, slight.</P>
+<P>59 = Drizzle and rain, moderate or heavy.</P>
+<P>60 = Rain, not freezing, intermittent, slight at time of observation.</P>
+<P>61 = Rain, not freezing, continuous, slight at time of observation.</P>
+<P>62 = Rain, not freezing, intermittent, moderate at time of observation.</P>
+<P>63 = Rain, not freezing, continuous, moderate at time of observation.</P>
+<P>64 = Rain, not freezing, intermittent, heavy at time of observation.</P>
+<P>65 = Rain, not freezing, continuous, heavy at time of observation.</P>
+<P>66 = Rain, freezing, slight.</P>
+<P>67 = Rain, freezing, moderate or heavy.</P>
+<P>68 = Rain or drizzle and snow, slight.</P>
+<P>69 = Rain or drizzle and snow, moderate or heavy.</P>
+<P>70 = Intermittent fall of snowflakes.</P>
+<P>71 = Continuous fall of snowflakes slight at time of observation.</P>
+<P>72 = Intermittent fall of snowflakes moderate at time of observation.</P>
+<P>73 = Continuous fall of snowflakes moderate at time of observation.</P>
+<P>74 = Intermittent fall of snowflakes heavy at time of observation.</P>
+<P>75 = Continuous fall of snowflakes heavy at time of observation.</P>
+<P>76 = Ice prisms (with or without fog).</P>
+<P>77 = Snow grains (with or without fog).</P>
+<P>78 = Isolated starlike snow crystals (with or without fog).</P>
+<P>79 = Ice pellets, type (a) (sleet, U.S. definition).</P>
+<P>80 = Rain shower(s), slight.</P>
+<P>81 = Rain shower(s), moderate or heavy.</P>
+<P>82 = Rain shower(s), violent.</P>
+<P>83 = Shower(s) of rain and snow mixed, slight.</P>
+<P>84 = Shower(s) or rain and snow mixed, moderate or heavy.</P>
+<P>85 = Snow shower(s), slight.</P>
+<P>86 = Snow shower(s), moderate or heavy.</P>
+<P>87 = Slight showers of snow pellets or ice pellets, type (b), with or without </P>
+<P>     rain or rain and snow mixed.</P>
+<P>88 = Moderate or heavy showers of snow pellets or ice pellets (b), with or </P>
+<P>     without rain or rain and snow mixed.</P>
+<P>89 = Slight showers of hail with or without rain or rain and snow mixed, not </P>
+<P>     associated with thunder.</P>
+<P>90 = Moderate or heavy showers of hail, with or without rain or rain and snow, </P>
+<P>     slight mixed, not associated with thunder.</P>
+<P>91 = Slight rain at time of observation, thunderstorm during preceding hour </P>
+<P>     but not at observation.</P>
+<P>92 = Moderate or heavy rain at time of observation, thunderstorm during </P>
+<P>     preceding hour but not at observation.</P>
+<P>93 = Slight snow, or rain and snow mixed or hail, at time of observation with      </P>
+<P>     thunderstorm during the preceding hour but not at time of observation.</P>
+<P>94 = Moderate or heavy snow, or rain and snow mixed, or hail, at time of </P>
+<P>     observation with thunderstorm during the preceding hour but not at time </P>
+<P>     of observation.</P>
+<P>95 = Thunderstorm, slight or moderate, without hail, but with rain and/or snow</P>
+<P>     at time of observation.</P>
+<P>96 = Thunderstorm, slight or moderate, with hail at time of observation.</P>
+<P>97 = Thunderstorm, heavy, without hail but with rain and/or snow at time of</P>
+<P>     observation.</P>
+<P>98 = Thunderstorm combined with duststorm or sandstorm at time of observation.</P>
+<P>99 = Thunderstorm, heavy, with hail at time of observation.</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>39&#9;PAST WEATHER&#9;0-9</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>(The period covered by Past Weather is 6 hours for observations at 0000, 0600, 1200, and 1800 GMT and 3 hours 0300, 0900, 1500, and 2100 GMT).</P>
+<P>&nbsp;</P>
+<P>0 = Cloud covering 1/2 or less of the sky throughout the appropriate period.</P>
+<P>1 = Cloud covering more than 1/2 of sky during part of the appropriate period </P>
+<P>    and covering 1/2 or less during part of the period.</P>
+<P>2 = Cloud covering more than 1/2 of the for observations at sky throughout the </P>
+<P>    appropriate period.</P>
+<P>3 = Sandstorm, duststorm or blowing snow.</P>
+<P>4 = Fog or ice fog or thick haze (U.S. includes thick smoke).</P>
+<P>5 = Drizzle</P>
+<P>6 = Rain</P>
+<P>7 = Snow, or rain and snow mixed.</P>
+<P>8 = Shower</P>
+<P>9 = Thunderstorm with or without precipitation.</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P> 40-44&#9;SEA LEVEL PRESSURE&#9;08900-10700&#9;890.0-1070.0 millibars</P>
+<P>&nbsp;</P>
+<P> 45&#9;TEMPS INDICATOR&#9;b, 1, 3, 5     &#9;ACCURACY OF ORIGINAL TEMPERATURE VALUE</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>b = Unknown</P>
+<P>1 = Tenths of degrees Celsius</P>
+<P>3 = Whole degrees Celsius</P>
+<P>5 = Half degrees Celsius</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>Original temperature values in Fahrenheit are converted to tenths of degrees Celsius and assigned a code value of 1.</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P> 46-49&#9;AIR TEMPERATURE&#9;<U>+</U>000-<U>+</U>999&#9;<U>+</U>00.0-<U>+</U>99.9<SUP>o</SUP>C</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P> 50-53      WET BULB TEMPERATURE     (always recorded to tenths). </P>
+<P> 54-57      DEW POINT TEMPERATURE                 </P>
+<P> 58-61      SEA SURFACE TEMPERATURE   </P>
+<P>            </P>
+<P>The first position in the field is the sign.  Dew-point temperature is generally reported in whole degrees.  A zero is recorded in the tenths position when dew-points are reported in whole degrees.</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P> 62&#9;TOTAL CLOUD AMT. (N)&#9;0-9            &#9;Fraction of celestial dome covered by all clouds.</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>0   = Clear</P>
+<P>1   = 1 Okta or less, but not zero</P>
+<P>2-8 = 2-8 Oktas</P><DIR>
+
+<P>9 = Sky obscured or cloud amount cannot be estimated</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P> 63&#9;LOWER CLOUD AMT. (N<SUB>h</SUB>)&#9;0-9&#9;</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>Fraction of celestial dome covered by all the C<SUB>L</SUB> clouds and, if no C<SUB>L</SUB> cloud is present, that fraction covered by all the C<SUB>M</SUB> clouds present. See codes for Total Cloud Amt. (N).</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P> 64&#9;LOW CLOUD TYPE (C<SUB>L</SUB>)&#9;0-9, -&#9;</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>0 = No Stratocumulus, Stratus, Cumulus or Cumulonimbus.</P>
+<P>1 = Cumulus with little vertical extent and seemingly flattened, or ragged </P>
+<P>    Cumulus other than of bad weather, or both.</P>
+<P>2 = Cumulus of moderate or strong vertical extent, generally with </P>
+<P>    protuberances in the form of domes or towers, either accompanied or not by </P>
+<P>    other Cumulus or by Stratocumulus, all having their base at the same </P>
+<P>    level.</P>
+<P>3 = Cumulonimbus, the summits of which, at least partially, lack sharp </P>
+<P>    outlines but are neither clearly fibrous (cirriform) nor in the form of an </P>
+<P>    anvil; Cumulus, Stratocumulus or Status may also be present.</P>
+<P>4 = Stratocumulus formed by the spreading out of Cumulus; Cumulus may also be </P>
+<P>    present.</P>
+<P>5 = Stratocumulus not resulting from the spreading out of Cumulus.</P>
+<P>6 = Stratus in a more or less continuous sheet or layer, or in ragged shreds, </P>
+<P>    or both, but no Stratus fractus of bad weather.</P>
+<P>7 = Stratus fractus of bad weather (generally existing during precipitation </P>
+<P>    and a short time before and after) or Cumulus fractus of bad weather, or </P>
+<P>    both (pannus), usually below Altostratus or Nimbostratus.</P>
+<P>8 = Cumulus and Stratocumulus other than that formed from the spreading out of </P>
+<P>    Cumulus; the base of the Cumulus is at a different level from that of the </P>
+<P>    Stratocumulus.</P>
+<P>9 = Cumulonimbus, the upper part of which is clearly fibrous (cirriform), </P>
+<P>    often in the form of an anvil; either accompanied or not by Cumulonimbus</P>
+<P>    without anvil or fibrous upper part by Cumulus, Stratocumulus, Stratus or </P>
+<P>    pannus.</P>
+
+<UL>
+<LI>= Stratocumulus, Stratus, Cumulus and Cumulonimbus invisible owing to   darkness, fog, blowing dust or sand, or other similar phenomena.</LI></UL>
+
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P> 65&#9;CLOUD HGT. INDICATOR&#9;b, 0&#9;   b =&#9;Height not measured</P>
+<P>0 =&#9;Height measured</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+
+<P> 66&#9;CLOUD HEIGHT (h)&#9;0-9, -&#9;         Height above sea surface of the base of the lowest cloud or fragment thereof.</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>  Approximate   </P>
+<U><P>Height in Feet</U>     <U>Height in Meters</P>
+</U><P>&nbsp;</P>
+<P>0 =  0-149             0-49     </P>
+<P>1 =  150-299           50-99</P>
+<P>2 =  300-599          100-199</P>
+<P>3 =  600-999          200-299</P>
+<P>4 = 1000-1999         300-599</P>
+<P> &#9;&#9;5 = 2000-3499         600-999</P>
+<P>6 = 3500-4999         1000-1499</P>
+<P>                           &#9;7 = 5000-6499         1500-1999</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>                                    8 = 6500-7999         2000-2499</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>9 = &gt;8000 or         &gt;2500 or</P>
+<P>    no clouds         no clouds</P>
+<P>- = missing</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P> 67&#9;MID. CLOUD TYPE (C<SUB>M</SUB>)&#9;0-9, -&#9;</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>0 = No Atlocumulus, Altostratus or Nimbostratus.</P>
+<P>1 = Altostratus, the greater part of which is semi-transparent; through this</P>
+<P>    part the sun or moon may be weakly visible, as through ground glass.</P>
+<P>2 = Altostratus, the greater part of which is sufficiently dense to hide the </P>
+<P>    sun or moon, or Nimbostratus.</P>
+<P>3 = Altocumulus, the greater part of which is semi-transparent; the various </P>
+<P>    elements of the cloud change only slowly and are all at a single level.</P>
+<P>4 = Patches (often in the form of almonds or fishes) of Altocumulus, the </P>
+<P>    greater part of which is semi-transparent; the clouds occur at one or more </P>
+<P>    levels and the elements are continually changing in appearance.</P>
+<P>5 = Semi-transparent Altocumulus in bands, or Altocumulus in one or more </P>
+<P>    fairly continuous layers (semi-transparent or opaque), progressively </P>
+<P>    invading sky; these Altocumulus clouds generally thicken as a whole.</P>
+<P>6 = Altocumulus resulting from the spreading out of Cumulus (or Cumulonimbus).</P>
+<P>7 = Altocumulus in two or more layers, usually opaque in places, and not </P>
+<P>    progressively invading the sky; or opaque layer of Altocumulus, not </P>
+<P>    progressively invading the sky; or Altocumulus together with Altostratus </P>
+<P>    or Nimbostratus.</P>
+<P>8 = Altocumulus with sproutings in the form of small towers or battlements;</P>
+<P>    or Altocumulus having the appearance of cumuliform tufts.</P>
+<P>9 = Altocumulus of a chaotic sky, generally at several levels.</P>
+<P>- = Altocumulus, Altostratus and Nimbostratus invisible owing to darkness,</P>
+<P>    fog, blowing dust or sand or other similar phenomena, or more often </P>
+<P>    because of the presence of a continuous layer of lower clouds.</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P> 68&#9;HIGH CLOUD TYPE (C<SUB>H</SUB>)&#9;0-9, -&#9;</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>0 = No Cirrus, Cirrocumulus or Cirrostratus</P>
+<P>1 = Cirrus in the form of filaments, strands or hooks, not progressively </P>
+<P>    invading sky.</P>
+<P>2 = Dense Cirrus, in patches or entangled sheaves, which usually do not </P>
+<P>    increase and sometimes seem to be the remains of the upper part of a </P>
+<P>    Cumulonimbus; or Cirrus with sproutings in the form of small turrets or </P>
+<P>    battlements, or Cirrus having the appearance of cumuliform tufts.</P>
+<P>3 = Dense Cirrus, often in the form of an anvil, being the remains of the </P>
+<P>    upper parts of Cumulonimbus.</P>
+<P>4 = Cirrus in the form of hooks or of filaments, or both, progressively </P>
+<P>    invading the sky; they generally become denser as a whole.</P>
+<P>5 = Cirrus (often in bands converging towards one point or two opposite points </P>
+<P>    of the horizon) and Cirrostratus, or Cirrostratus alone; in either case, </P>
+<P>    they are progressively invading the sky, and generally growing denser as a </P>
+<P>    whole, but the continuous veil does not reach 45 degrees above the </P>
+<P>    horizon.</P>
+<P>6 = Cirrus (often in bands converging towards one point or two opposite points </P>
+<P>    of the horizon) and Cirrostratus, or Cirrostratus alone; in either case, </P>
+<P>    they are progressively invading the sky, and generally growing denser as a </P>
+<P>    whole; the continuous veil extends more than 45 degrees above the horizon, </P>
+<P>    without the sky being totally covered.</P>
+<P>7 = Veil of Cirrostratus covering the celestial dome.</P>
+<P>8 = Cirrostratus not progressively invading the sky and not completely </P>
+<P>    covering the celestial dome.</P>
+<P>9 = Cirrocumulus alone, or Cirrocumulus accompanied by Cirrus or both, but </P>
+<P>    Cirrocumulus is predominant. Cirrostratus, invisible owing to darkness, </P>
+<P>    fog, blowing dust or sand or other similar phenomena, or more often </P>
+<P>    because of the presence of a continuous layer of lower clouds.</P>
+<P>- = Cirrus, Cirrocumulus and Cirrostratus.</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P> 69-70&#9;DIRECTION OF WAVES&#9;00-36, 49, 99&#9;  Direction from which waves come, in tens of degrees</P>
+<P>&nbsp;</P>
+<P>00 = Calm        19 = 185-194<SUP>o</P>
+</SUP><P>01 = 005-014<SUP>o</SUP>    20 = 195-204<SUP>o</P>
+</SUP><P>02 = 015-024<SUP>o</SUP>    21 = 205-214<SUP>o</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+</SUP><P>03 = 025-034<SUP>o</SUP>    22 = 215-224<SUP>o</P>
+</SUP><P>04 = 035-044<SUP>o</SUP>    23 = 225-234<SUP>o</P>
+</SUP><P>05 = 045-054<SUP>o</SUP>    24 = 235-244<SUP>o</P>
+</SUP><P>06 = 055-064<SUP>o</SUP>    25 = 245-254<SUP>o</P>
+</SUP><P>07 = 065-074<SUP>o</SUP>    26 = 255-264<SUP>o</P>
+</SUP><P>08 = 075-084<SUP>o</SUP>    27 = 265-274<SUP>o</P>
+</SUP><P>09 = 085-094<SUP>o</SUP>    28 = 275-284<SUP>o</P>
+</SUP><P>10 = 095-104<SUP>o</SUP>    29 = 285-294<SUP>o</P>
+</SUP><P>11 = 105-114<SUP>o</SUP>    30 = 295-304<SUP>o</P>
+</SUP><P>12 = 115-124<SUP>o</SUP>    31 = 305-314<SUP>o</P>
+</SUP><P>13 = 125-134<SUP>o</SUP>    32 = 315-324<SUP>o</P>
+</SUP><P>14 = 135-144<SUP>o</SUP>    33 = 325-334<SUP>o</P>
+</SUP><P>15 = 145-154<SUP>o</SUP>    34 = 335-344<SUP>o</P>
+</SUP><P>16 = 155-164<SUP>o</SUP>    35 = 345-354<SUP>o</P>
+</SUP><P>17 = 165-174<SUP>o</SUP>    36 = 355-004<SUP>o</P>
+</SUP><P>18 = 175-184<SUP>o</P>
+</SUP><P>&nbsp;</P><DIR>
+<DIR>
+
+<P>49 = &#9;Waves confused, direction</P>
+<P>     indeterminate (waves equal</P>
+<P>     to or less than 4 3/4 meters).</P>
+<P>&nbsp;</P>
+<P>99 = &#9;Waves confused, direction</P>
+<P>     indeterminate (waves greater than 4 </P>
+<P>     3/4 meters).</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>For Buoy data this field is average wave direction.</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P> 71&#9;PERIOD OF WAVES&#9;0-9, -&#9;2 =  5 seconds or less</P>
+<P>3 =  6- 7 seconds</P>
+<P>4 =  8- 9 seconds</P>
+<P>5 = 10-11 seconds</P>
+<P>6 = 12-13 seconds</P>
+<P>7 = 14-15 seconds</P>
+<P>8 = 16-17 seconds</P>
+<P>9 = 18-19 seconds</P>
+<P>0 = 20-21 seconds</P>
+<P>1 = over 21 seconds</P>
+<P>- = calm or period not</P>
+<P>determined</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>For Buoy data this field is average wave period.</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P> 72-73&#9;HEIGHT OF WAVES&#9;00-99&#9;   Height in 1/2 meter increments</P>
+<P>&nbsp;</P>
+<P>00    = &lt; 1/4 meter</P>
+<P>01-99 = 1/2 - 49 1/2 meters</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>For Buoy data this field is significant wave height.</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P> 74-75&#9;DIRECTION OF SWELL&#9;00-36,</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P> 49, 99&#9; Same as Direction of Waves</P>
+<P>&nbsp;</P>
+<P> 76&#9;PERIOD OF SWELL&#9;0-9, -&#9; Same as Period of Waves prior to</P>
+<P> &#9;&#9;       1968</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>Beginning January 1, 1968, the code for Period of Swell is:</P>
+<P>&nbsp;</P>
+<P>0 = 10 seconds</P>
+<P>1 = 11 seconds</P>
+<P>2 = 12 seconds</P>
+<P>3 = 13 seconds</P>
+<P>4 = 14 seconds or more</P>
+<P>5 =  5 seconds or less</P>
+<P>6 =  6 seconds</P>
+<P>7 =  7 seconds</P>
+<P>8 =  8 seconds</P>
+<P>9 =  9 seconds</P>
+<P>- =  calm or period not determined</P>
+<P>&nbsp;</P>
+<P> 77-78&#9;HEIGHT OF SWELL&#9;00-99  &#9;Same as Height of Waves</P>
+<P>&nbsp;</P>
+<P> 79-80&#9;COUNTRY CODE&#9;Combinations&#9;</P>
+<P>of b, 0-40,  &#9;RECRUITING</P>
+<P>and J-R   &#9;<U>COUNTRY</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+</U><P>               <U>CODES</P>
+</U><P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>Netherlands    0b  }b  00</P>
+<P>Norway         0J  }J  01</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>USA&#9;&#9;0K  }K  02</P>
+<P>UK&#9;&#9;0L  }L  03</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>France         0M  }M  04</P>
+<P>Denmark        0N  }N  05</P>
+<P>Italy          0O  }O  06</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>India&#9;&#9;0P  }P  07</P>
+<P>Hong Kong&#9;&#9;0Q  }Q  08</P>
+<P>New Zealand&#9;&#9;0R  }R  09</P>
+<P>Ireland&#9;&#9;1b  Jb  10</P>
+<P>Philippines&#9;&#9;1J  JJ  11</P>
+<P>Egypt&#9;&#9;1K  JK  12</P>
+<P>Canada&#9;&#9;1L  JL  13</P>
+<P>Belgium&#9;&#9;1M  JM  14</P>
+<P>South Africa&#9;&#9;1N  JN  15</P>
+<P>Australia&#9;&#9;1O  JO  16</P>
+<P>Japan&#9;&#9;1P  JP  17</P>
+<P>Pakistan&#9;&#9;1Q  JQ  18</P>
+<P>Argentina&#9;&#9;1R  JR  19</P>
+<P>Sweden&#9;&#9;2b  Kb  20</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>Fed Rep Ger    2J  KJ  21</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>Iceland&#9;&#9;2K  KK  22</P>
+<P>Israel&#9;&#9;2L  KL  23</P>
+<P>Malaysia&#9;&#9;2M  KM  24</P>
+<P>USSR&#9;&#9;2N  KN  25</P>
+<P>Finland&#9;&#9;2O  KO  26</P>
+<P>Rep of Korea&#9;&#9;2P  KP  27</P>
+<P>New Caledonia&#9;&#9;2Q  KQ  28</P>
+<P>Portugal&#9;&#9;2R  KR  29</P>
+<P>Spain&#9;&#9;3b  Lb  30</P>
+<P>Thailand&#9;&#9;3J  LJ  31</P>
+<P>Yugoslavia&#9;&#9;3K  LK  32</P>
+<P>Poland&#9;&#9;3L  LL  33</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>Brazil&#9;&#9;3M  LM  34</P>
+<P>Singapore&#9;&#9;3N  LN  35</P>
+<P>Kenya&#9;&#9;3O  LO  36</P>
+<P>Tanzania&#9;&#9;3P  LP  37</P>
+<P>Uganda&#9;&#9;3Q  LQ  38</P>
+<P>Mexico&#9;&#9;3R  LR  39</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>Ger.Dem.Rep    4b  Mb  40</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>A right brace ( } ) may print as a blank on some printers.  Country codes prior to 1982 may have an X overpunch (non-numeric character) in one or both record positions.  An X overpunch in 79 indicates foreign receipt and in 80 indicates an auxiliary ship.</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P> 81&#9;SHIP DIRECTION&#9;0-9&#9;&#9;Ship's course (true) made good during the 3 hours preceding the time of observation.</P>
+<P>&nbsp;</P>
+<P>0 = Ship hove to     5 = SW</P>
+<P>1 = NE               6 = W</P>
+<P>2 = E                7 = NW</P>
+<P>3 = SE               8 = N</P>
+<P>4 = S                9 = Unknown</P>
+<P>&nbsp;</P>
+<P> 82&#9;SHIP SPEED&#9;0-9&#9;&#9;Ship's average speed made good during the 3 hours preceding the time of observation.</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<U><P>Prior to 1968</U>:</P>
+<P>&nbsp;</P>
+<P>0 =     0 knots       5 = 13-15 knots</P>
+<P>1 =  1- 3 knots       6 = 16-18 knots</P>
+<P>2 =  4- 6 knots       7 = 19-21 knots</P>
+<P>3 =  7- 9 knots       8 = 22-24 knots</P>
+<P>    &#9;&#9;4 = 10-12 knots       9 =    24 knots</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<U><P>Beginning January 1, 1968</U>:</P>
+<P>&nbsp;</P>
+<P>0 =     0 knots       5 = 21-25 knots</P>
+<P>1 =  1- 5 knots       6 = 26-30 knots</P>
+<P>2 =  6-10 knots       7 = 31-35 knots</P>
+<P>3 = 11-15 knots       8 = 36-40 knots</P>
+<P>4 = 16-20 knots       9 =    40 knots</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P> 83&#9;BAROMETRIC TENDENCY&#9;0-8&#9;</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>0 = Increasing, then decreasing; atmospheric pressure same or higher than 3</P>
+<P>    hours ago.</P>
+<P>1 = Increasing, then steady; or increasing then increasing more slowly;</P>
+<P>    atmospheric pressure now higher than 3 hours ago.</P>
+<P>2 = Increasing (steadily or unsteadily) atmospheric pressure now higher than 3</P>
+<P>    hours ago.</P>
+<P>3 = Decreasing or steady, then increasing; or increasing then increasing more </P>
+<P>    rapidly; atmospheric pressure now higher than 3 hours ago.</P>
+<P>4 = Steady; atmospheric pressure same as 3 hours ago.</P>
+<P>5 = Decreasing, then increasing; atmospheric pressure the same or lower than 3 </P>
+<P>    hours ago.</P>
+<P>6 = Decreasing, then steady, or decreasing then decreasing more slowly; </P>
+<P>    atmospheric pressure now lower than 3 hours ago.</P>
+<P>7 = Decreasing (steadily or unsteadily) atmospheric pressure now lower than 3 </P>
+<P>    hours ago.</P>
+<P>8 = Steady or increasing, then decreasing; or decreasing then decreasing more </P>
+<P>    rapidly; atmospheric pressure now lower than 3 hours ago.</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P> 84-86&#9;   AMOUNT OF</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>PRESSURE CHANGE&#9;000-299&#9;&#9;Amount of pressure change from 3 hours ago.  (Tenths of millibars)</P>
+<P>&nbsp;</P>
+<P>00.0-29.9 millibars</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P> 87&#9;   TYPE OF ICE</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>ACCRETION ON SHIP&#9;1-5&#9;&#9;1 = Icing from ocean spray</P>
+<P>2 = Icing from fog</P>
+<P>3 = Icing from spray and fog</P>
+<P>4 = Icing from rain</P>
+<P>5 = Icing from spray and rain</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P> 88-89&#9;ICE THICKNESS</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>   ON SHIP&#9;00-99&#9;&#9;Ice thickness in centimeters</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P> 90&#9;   RATE OF</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>ICE ACCRETION&#9;0-4&#9;</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>0 = Ice not building up</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>1 = Ice building up slowly</P>
+<P>2 = Ice building up rapidly</P>
+<P>3 = Ice melting or breaking up slowly</P>
+<P>4 = Ice melting or breaking up rapidly</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P> 91-97&#9;SHIP, OSV, OR&#9;Identification of individual ship, Ocean&#9;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>BUOY CALL SIGN&#9;Station Vessel, or buoy.  Ship numbers</P>
+<P>OR NUMBER* &#9;can vary from 4 to 7 characters,</P>
+<P>&#9;consisting of mixed alphanumerics.  OSV </P>
+<P>&#9;identification prior to July 1975 varied </P>
+<P>&#9;from 4YA to 4YZ.  Then it changed</P>
+<P>from C7A to C7Z.  Buoy numbers are 5 digit &#9;&#9;numerics.</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P> 98&#9;ORIGINAL WIND&#9;b, 1, 2&#9;</P><DIR>
+<DIR>
+
+<P>SPEED UNITS&#9;b = not reported&#9;</P></DIR>
+</DIR>
+
+<P>INDICATOR&#9;1 = knots&#9;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>2 = meters per second</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P> 99&#9;ORIGINAL &#9;b, 1-8&#9;</P><DIR>
+<DIR>
+
+<P>TEMPERATURE&#9;b = not reported&#9;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>UNITS INDICATOR&#9;1 = <SUP>o</SUP>C (Celsius) to tenths</P>
+<P>2 = <SUP>o</SUP>F (Fahrenheit) to tenths</P>
+<P>3 = Whole <SUP>o</SUP>C</P>
+<P>4 = Whole <SUP>o</SUP>F</P>
+<P>5 = Halves of <SUP>o</SUP>C</P>
+<P>6 = Halves of <SUP>o</SUP>F</P>
+<P>7 = <SUP>o</SUP>F to tenths, and dew point to whole F</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>8 = <SUP>o</SUP>C to tenths, and dew point to whole <SUP>o</SUP>C</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>100&#9;SEA TEMPERATURE&#9;b, B, I&#9;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>b = Method unknown (Beginning in 1982)</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>METHOD INDICATOR&#9; 0-7</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>Prior to 1982 indicated intake or unknown</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>I = Intake method</P>
+<P>B = Bucket method</P>
+<P>&nbsp;</P>
+<P>For internationally exchanged data (IMMT) beginning in 1982 and all data after September 1985.</P>
+<P>&nbsp;</P>
+<P>0 = Bucket thermometer</P>
+<P>1 = Condenser inlet (intake)</P>
+<P>2 = Trailing thermistor</P>
+<P>3 = Hull contact sensor</P>
+<P>4 = Through hull sensor</P>
+<P>5 = Radiation thermometer</P>
+<P>6 = Bait tanks thermometer</P>
+<P>7 = Others</P>
+<P>8 = Method unknown</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>* All call signs or numbers begin in tape position 91; i.e., the element is left justified.  In some cases, particularly for buoy numbers, the rightmost positions may be 0 or blank filled.</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>101-102&#9;PERIOD OF WAVES&#9;00-99&#9;&#9;Period of wind waves in <U>seconds</U>.  Field 023 data is the same as Field 040, but in coded form</P>
+<P>&nbsp;</P>
+<P>103-104&#9;PERIOD OF SWELL&#9;00-99&#9;&#9;Period of swell in seconds.  Field 026 data is the same as field 041 but in coded form</P>
+<P>&nbsp;</P>
+<P>105&#9;DESCRIPTION OF&#9;0-9&#9;</P>
+<P>  ICE TYPE&#9;&#9;</P>
+<P>(PRIOR TO 1982)&#9;&#9; </P>
+<P>0 = No ice</P>
+<P>1 = New ice</P>
+<P>2 = Fast ice</P>
+<P>3 = Pack or drift ice</P>
+<P>4 = Packed slush</P>
+<P>5 = Shore lead</P>
+<P>6 = Heavy fast ice</P>
+<P>7 = Heavy pack or drift ice</P>
+<P>8 = Hummocked ice</P>
+<P>9 = Icebergs</P>
+<P>&nbsp;</P>
+<P>105&#9;CONCENTRATION&#9;0-9, -&#9;</P>
+<P>   OF ICE&#9;&#9;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>(NEW CODE 1982)&#9;</P>
+<P>&nbsp;</P>
+<P>0 = No sea ice in sight</P>
+<P>1 = Ship in open lead more than 1.0 nautical mile wide, or ship in fast ice</P>
+<P>    with boundary beyond limit of visibility</P>
+<P>2 = Sea ice present in concentrations less than 3/10 (3/8), open water or very </P>
+<P>    open pack ice</P>
+<P>3 = 4/10 to 6/10 (3/8 to less than 6/8), open pack ice</P>
+<P>4 = 7/10 to 8/10 (6/8 to less than 7/8), close pack ice</P>
+<P>5 = 9/10 or more, but not 10/10 (7/8 to less than 8/8), very close pack ice</P>
+<P>6 = Strips and patches of pack ice with open water between</P>
+<P>7 = Strips and patches of close or very close pack ice with areas of lesser</P>
+<P>    concentration between </P>
+<P>8 = Fast ice with open water, very open or open pack ice to seaward of the ice </P>
+<P>    boundary</P>
+<P>9 = Fast ice with close or very close pack ice to seaward of the ice boundary</P>
+<P>- = Unable to report, because of darkness, lack of visibility, or because ship </P>
+<P>    is more than 0.5 nautical mile away from ice edge</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>106&#9;EFFECT OF THE&#9;0-9&#9;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>          ICE ON NAVIGATION&#9;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>(PRIOR TO 1982)</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>0 = Navigation unobstructed</P>
+<P>1 = Navigation unobstructed for steamers, difficult for sail</P>
+<P>2 = Navigation difficult for low powered steamers</P>
+<P>3 = Navigation possible only for powerful steamers</P>
+<P>4 = Navigation possible only for ships reinforced against ice</P>
+<P>5 = Navigation possible with assistance of ice breakers</P>
+<P>6 = Channel open in the solid ice</P>
+<P>7 = Navigation temporarily closed</P>
+<P>8 = Navigation closed</P>
+<P>9 = Navigation conditions unknown (e.g., owing to bad weather)</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>106&#9;STAGE OF ICE&#9;0-9, -&#9;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>DEVELOPMENT</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>(NEW CODE 1982)&#9;</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>0 = New ice only (frazil ice, grease ice, slush, shuga)</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>1 = Nilas or ice rind, less than 10 cm  thick&#9;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>2 = Young ice (grey ice, grey-white ice), 10-30 cm thick</P>
+<P>3 = Predominantly new and/or young ice with some first-year ice</P>
+<P>4 = Predominantly thin first-year ice with some new and/or young ice</P>
+<P>5 = All thin first-year ice (30-70 cm thick)</P>
+<P>6 = Predominantly medium first-year ice (70-120 cm thick) and thick first-year</P>
+<P>    ice (&gt; 120 cm thick) with some thinner (younger) first-year ice</P>
+<P>7 = All medium and thick first-year ice</P>
+<P>8 = Predominantly medium and thick first-year ice with some old ice (usually </P>
+<P>    more than 2 meters thick)</P>
+<P>9 = Predominantly old ice</P>
+<P>- = Unable to report, because of darkness, lack of visibility or because only </P>
+<P>    ice of land origin is visible or because ship is more than 0.5 nautical </P>
+<P>    mile away from ice edge</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>107&#9;  BEARING OF&#9;0-9&#9;&#9;0 = No ice edge can be stated</P>
+<P>PRINCIPAL ICE&#9;&#9;&#9;1 = Edge toward NE</P>
+<P>EDGE FROM SHIP&#9;&#9;&#9;2 = Edge toward E</P>
+<P>(PRIOR TO 1982)&#9;&#9;&#9;3 = Edge toward SE</P>
+<P>4 = Edge toward S</P>
+<P>5 = Edge toward SW</P>
+<P>6 = Edge toward W</P>
+<P>7 = Edge toward NW</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>8 = Edge toward N</P>
+<P>9 = Edge in several directions</P>
+<P>&nbsp;</P>
+<P>107&#9;ICE OF LAND ORIGIN&#9;0-9, -&#9;</P>
+<P>(NEW CODE 1982)&#9;&#9;</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>0 = No ice of land origin</P>
+<P>1 = 1-5 icebergs, no growlers or bergy bits</P>
+<P>2 = 6-10 icebergs, no growlers or bergy bits</P>
+<P>3 = 11-20 icebergs, no growlers or bergy bits</P>
+<P>4 = Up to and including 10 growlers with bergy bits -- no icebergs</P>
+<P>5 = More than 10 growlers and bergy bits -- no icebergs</P>
+<P>6 = 1-5 icebergs with growlers and bergy bits</P>
+<P>7 = 6-10 icebergs with growlers and bergy bits</P>
+<P>8 = 11-20 icebergs with growlers and bergy bits</P>
+<P>9 = More than 20 icebergs with growlers and bergy bits -- a major hazard to</P>
+<P>    navigation</P>
+<P>- = Unable to report, because of darkness, lack of visibility or because </P>
+<P>    only sea ice is visible</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>108&#9;DISTANCE TO ICE&#9;0-9&#9;&#9;0 = Up to 1 mi.</P>
+<P>EDGE FROM SHIP&#9;&#9;&#9;1 = 1 to 2 mi.</P>
+<P>(PRIOR TO 1982)&#9;&#9;&#9;2 = 2 to 4 mi.</P>
+<P>3 = 4 to 6 mi.</P>
+<P>4 = 6 to 8 mi.</P>
+<P>5 = 8 to 12 mi.</P>
+<P>6 = 12 to 16 mi.</P>
+<P>7 = 16 to 20 mi.</P>
+<P>8 = More than 20 mi.</P>
+<P>9 = Unspecified or no observations</P>
+<P>&nbsp;</P>
+<P>108&#9;BEARING OF PRINCIPAL&#9;0-9, -&#9;</P>
+<P>ICE EDGE FROM SHIP</P>
+<P>(NEW CODE 1982)</P>
+<P>&nbsp;</P>
+<P>&#9;&#9;0 = Ship in shore or flaw lead</P>
+<P>&#9;&#9;1 = Principal ice edge towards NE</P>
+<P>&#9;&#9;2 = Principal ice edge towards E</P>
+<P>3 = Principal ice edge towards SE</P>
+<P>4 = Principal ice edge towards S</P>
+<P>5 = Principal ice edge towards SW</P>
+<P>6 = Principal ice edge towards W</P>
+<P>7 = Principal ice edge towards NW</P>
+<P>8 = Principal ice edge towards N</P>
+<P>9 = Not determined (ship in ice)</P><DIR>
+
+<P>- = &#9;Unable to report, because of darkness,</P>
+<P>    lack of visibility or because only ice </P>
+<P>    of land origin is visible</P>
+<P>&nbsp;</P></DIR>
+
+<P>109&#9;ORIENTATION OF&#9;0-9 &#9;0 = Unknown-ship outside ice</P>
+<P>   ICE EDGE&#9;&#9;    1 = NE to SW, ice to the NW</P>
+<P>(PRIOR TO 1982)&#9;    &#9;2 = E to W, ice to the N</P>
+<P>3 = SE to NW, ice to the NE</P>
+<P>4 = S to N, ice to the E</P>
+<P>5 = SW to NE, ice to the SE</P>
+<P>6 = W to E, ice to the S</P>
+<P>7 = NW to SE, ice to the SW</P>
+<P>8 = N to S, ice to the W</P>
+<P>9 = Unknown-ship inside ice</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>109&#9;SITUATION OR TREND&#9;0-9, -&#9;Conditions over previous 3 hours</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>0 = Ship in open water with floating ice in sight</P>
+<P>1 = Ship in easily penetrable ice; conditions improving</P>
+<P>2 = Ship in easily penetrable ice; conditions not changing</P>
+<P>3 = Ship in easily penetrable ice; conditions worsening</P>
+<P>4 = Ship in ice difficult to penetrate; conditions improving</P>
+<P>5 = Ship in ice difficult to penetrate; conditions not changing</P>
+<P>6 = Ice forming and floes freezing together</P>
+<P>7 = Ice under slight pressure</P>
+<P>8 = Ice under moderate or severe pressure</P>
+<P>9 = Ship beset</P>
+<P>- = Unable to report--because of darkness or lack of visibility</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>110-111&#9;   AMOUNT OF PRECIPITATION 00-99 </P>
+<P>&nbsp;</P>
+<P>Code figures 00-55 = the same precipitation amount in millimeters.  For codes </P>
+<P>56-90, subtract 50 and multiply answer by 10 to obtain amount in mm. (i.e., </P>
+<P>code 76 = (76-50) x 10 = 260 mm).</P>
+<P>&#9; </P>
+<P>&nbsp;</P>
+<P>91 = 0.1 mm</P>
+<P>92 = 0.2 mm</P>
+<P>93 = 0.3 mm</P>
+<P>94 = 0.4 mm</P>
+<P>95 = 0.5 mm</P>
+<P>96 = 0.6 mm</P><DIR>
+<DIR>
+
+<P>97 =&#9;A little precipitation, non-measurable</P></DIR>
+</DIR>
+
+<P>98 = More than 400 mm</P>
+<P>99 = Measurement impossible</P>
+<P>&nbsp;</P>
+<P>112-113&#9;TIME PERIOD&#9;00-38,&#9;</P>
+<P>FOR PRECIP&#9;41-46,&#9;</P>
+<P>AMOUNT&#9;49-94, 99&#9;</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>See WMO Manual No. 306, "Manual on Codes", Code Table 4080 for a complete translation of code figures to duration of precipitation amount for different observational periods.</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>114&#9;SIGNIFICANT&#9;0-9 &#9;&#9;Amount of individual cloud layer or mass</P>
+<P>CLOUD AMOUNT&#9;&#9;</P>
+<P>0   = Clear</P>
+<P>1   = 1 Okta or less, but not zero</P>
+<P>2-8 = 2-8 Oktas</P>
+<P>9   = Sky obscured or cloud amount</P>
+<P>      cannot be estimated</P>
+<P>&nbsp;</P>
+<P>115&#9;SIGNIFICANT&#9;0-9, -&#9;Cloud genus</P>
+<P>CLOUD TYPE&#9;&#9;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>0 = Cirrus</P>
+<P>1 = Cirrocumulus</P>
+<P>2 = Cirrostratus</P>
+<P>3 = Altocumulus</P>
+<P>4 = Altostratus</P>
+<P>5 = Nimbostratus</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>6 = Stratocumulus</P>
+<P>7 = Stratus</P>
+<P>8 = Cumulus</P>
+<P>9 = Cumulonimbus</P>
+<P>- = Cloud not visible owing to darkness, fog, duststorms, sandstorm, or other analogous phenomena.</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>115-117&#9;SIGNIFICANT&#9;00-50&#9;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>CLOUD HEIGHT&#9;56-99</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+
+<P>Height of the base of the cloud layer or        mass whose genus was reported in Field 045.</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>00    = &lt; 30 meters</P>
+<P>01-50 = 30-1,500 meters in increments of 30 meters</P>
+<P>56-80 = 1,800-9,000 meters in increments of 300 meters</P>
+<P>81-88 = 10,500-21,000 meters in increments of 1,500 meters</P>
+<P>89    = &gt; 21,000 meters</P>
+<P>90    = &lt; 50     meters</P>
+<P>91    =    50-100 meters</P>
+<P>92    =   100-200 meters</P>
+<P>93    =   200-300 meters</P>
+<P>94    =   300-600 meters</P>
+<P>95    =   600-1,000 meters</P>
+<P>96    =  1,000-1,500 meters</P>
+<P>97    =  1,500-2,000 meters</P>
+<P>98    =  2,000-2,500 meters</P>
+<P>99    = &gt;2,500 meters or no clouds</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>118&#9;SECOND MOST&#9;0-9&#9;&#9;Same as Past Weather</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>SIGNIFICANT PAST</P>
+<P>WEATHER</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>119-120&#9;SECOND MOST&#9;00-36,&#9;&#9;Same as Direction of Waves</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>SIGNIFICANT&#9;49, 99</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>SWELL DIRECTION</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>121-122&#9;SECOND MOST&#9;00-99&#9;&#9;Period of Swell in seconds</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>SIGNIFICANT</P>
+<P>SWELL PERIOD</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>123-124&#9;SECOND MOST &#9;00-99&#9;&#9;Same as Height of Waves</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>SIGNIFICANT&#9;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>SWELL HEIGHT</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>125-138&#9;QUALITY&#9;A, B, J, K,&#9;&#9;See A.3 for an explanation of flags.</P>
+<P>CONTROL FLAGS&#9;L, M, N, Q,&#9;</P>
+<P>R, S&#9;&#9;125 = SHIP POSITION</P>
+<P>126 = WIND</P>
+<P>127 = VISIBILITY</P>
+<P>128 = PRESENT WEATHER</P>
+<P>129 = PAST WEATHER</P>
+<P>130 = PRESSURE</P>
+<P>131 = DRY BULB</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>132 = WET BULB</P>
+<P>133 = DEW POINT</P>
+<P>134 = SEA TEMPERATURE</P>
+<P>135 = CLOUDS</P>
+<P>136 = WAVES</P>
+<P>137 = SWELL WAVES</P>
+<P>138 = AMOUNT OF PRESSURE  TENDENCY (ppp)</P>
+<P>&nbsp;</P>
+<P>139-140&#9;QUALITY CODE (QC)&#9;00-39&#9;The following are the flagged values and their quality codes:</P>
+<P>&nbsp;</P>
+<U><P>Flag</U>             <U>Quality Code</P>
+</U><P>&nbsp;</P>
+<P>R                      0</P>
+<P>A, B                   1</P>
+<P>J, K, L                2</P>
+<P>M, N, Q, S             3</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>141-144&#9;QC DATE&#9;</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>QC date is the year and month the quality control program was run on the data.  It serves to document changes and is for NCDC use only.</P>
+<P>&nbsp;</P>
+<P>The International Maritime Meteorological Tape (IMMT) format was implemented by the WMO in 1982.  Record positions 135-146 are meaningful for decks 926 and 500 received after 1982.</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>145&#9;IMMT WAVE&#9;0-9&#9;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>MEASUREMENT</P>
+<P>&nbsp;</P>
+<P>0 = Wave and swell estimated</P>
+<P>1 = Wave and swell measured (Wave Recorder)</P>
+<P>2 = Wave measured (Wave Recorder) and swell estimated</P>
+<P>3 = Other combinations of measured and estimated (Wave Recorder)</P>
+<P>4 = Wave and swell measured (Buoy)</P>
+<P>5 = Wave measured (Buoy) and swell estimated</P>
+<P>6 = Other combinations of measured and estimated (Buoy)</P>
+<P>&nbsp;</P>
+<P>Other Measurement System:</P>
+<P>&nbsp;</P>
+<P>7 = Wave and swell measured</P>
+<P>8 = Wave measured and swell estimated</P>
+<P>9 = Other combinations of measured and estimated</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>146&#9;IMMT OBSERVATION&#9;0-9&#9;</P>
+<P>PLATFORM</P>
+<P>&#9;&#9;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>0 = Unknown</P>
+<P>1 = Selected Ship</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>2 = Supplementary Ship</P>
+<P>3 = Auxiliary Ship</P>
+<P>4 = Automated station/data buoy</P>
+<P>5 = Fixed sea station</P>
+<P>6 = Coastal station</P>
+<P>7 = Aircraft</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>8 = Satellite</P>
+<P>9 = Others</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>147&#9;QUALITY CODE&#9;0-9&#9;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P> INDICATOR</P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>0 = No quality control (QC) performed</P>
+<P>1 = Manual QC only</P>
+<P>2 = Automated QC only (no time-sequence checks)</P>
+<P>3 = Automated QC only (including time-sequence checks)</P>
+<P>4 = Manual and Automated QC (superficial; no automated time-sequence checks)</P>
+<P>5 = Manual and Automated AC (superficial; including time-sequence checks)</P>
+<P>6 = Manual and Automated QC (intensive; including time-sequence checks)</P>
+<P>7 = Not used</P>
+<P>8 = Not used</P>
+<P>9 = National system of QC (information to be furnished to WMO)</P>
+<P>&nbsp;</P>
+<P>The i<SUB>x</SUB> indicator was initiated with 1982 WMO code change.</P>
+<P>&nbsp;</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>148&#9;WEATHER OPERATION&#9;1-6   </P>
+<P>TYPE AND PAST AND&#9;      </P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>PRESENT WEATHER INDICATOR  (i<SUB>x</SUB>)</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>Station          Weather Group&#9;</P>
+<U><P>Operation</U>        <U>7ww W<SUB>1</SUB> W<SUB>2</U></SUB>&#9;      </P>
+<P>&nbsp;</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>1 = Manned        Included</P><DIR>
+<DIR>
+<DIR>
+<DIR>
+
+<P>2 = Manned&#9;      Omitted (no significant weather to report)</P>
+<P>3 = Manned&#9;      Omitted (not observed, data not available)</P></DIR>
+</DIR>
+</DIR>
+</DIR>
+
+<P>4 = Automatic    Included</P>
+<P>5 = Automatic    Omitted (no significant weather to report)</P>
+<P>6 = Automatic    Omitted (not observed, data not available)</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>Characters in the data record other than those specified in this table may occur.  These are retained  as original data and should be considered missing (e.g., 9, 1, or blank may occur for telecommunicated observations in record position 148).</P>
+<P>&nbsp;</P>
+<U><P>Temperature Indicators</P>
+</U><P>&nbsp;</P>
+<P>There are 2 temperature indicators in the 1129 format.  Position 45 indicates that temperature data in 1129 format are recorded in Celsius degrees.  The precision of the original input data is also indicated.  For example, a temperature indicator 3 (position 45) means original data were recorded to whole degrees in Celsius.  If the original value were 25<SUP>o</SUP>C, the 1129 value would be 25.0<SUP>o</SUP>C.</P>
+<P>&nbsp;</P>
+<P>Position 99 is the original temperature units indicator and identifies the scale and precision of the original data.  Indicator codes 1, 3, and 5 (Celsius) are the same for positions 45 and 99.  Original units indicator codes 2, 4, 6, 7, 8 are converted to tenths of degrees Celsius in 1129 and position 45 is set to 1.</P>
+<P>&nbsp;</P>
+<P>A.2  <U>Codes</P>
+</U><P>&nbsp;</P>
+<P>Most of the codes used in the marine processing system and 1129 format are according to WMO regulations.  Exceptions are quadrant, the use of a minus sign (-) in all cases were WMO uses a solidus (/) and quality control flags.  Codes used in 1129 format are given in Table 2.</P>
+<P>A.3  <U>Flags (NCDC Quality Indicators)</P>
+</U><P>&nbsp;</P>
+<P>The quality control computer program automatically assigns flags for missing, suspect and erroneous data elements.  In 1129 format, flags are located in record positions 125-138.  Marine observations are checked for illegal codes, internal consistency, time continuity and extreme values.  Original values are not changed.  Flags assigned are:</P>
+<P>&nbsp;</P>
+<P>                         Systematic or</P>
+<U><P>Errors</U>                   <U> Bias Error  </U>        <U>Suspect</U>        <U>Erroneous</P>
+</U><P>&nbsp;</P>
+<P>Illegal Code                  A*                                 M</P>
+<P>Internal Consistency          B                  J               N</P>
+<P>Time Continuity                                  K</P>
+<P>Extreme Value                                    L               Q</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>* For cloud fields, flag A indicates cloud types, cloud height, total cloud and/or low cloud amount have failed the internal consistency check.</P>
+<P>&nbsp;</P>
+<P>In checking an element for exceeding a reasonable value, climatic data consisting of means and standard deviations were derived using 5<SUP>o</SUP> latitude-longitude squares which contained at least 25 observations.  Standard deviations were computed for air, wet-bulb, dew-point and sea temperature, and sea level pressure.  If a value lies outside X <U>+</U> 4.8 standard deviations, it is flagged suspect.  If the value lies outside X <U>+</U> 5.8 standard deviations, it is flagged erroneous.  A flagged element which is flagged again as a result of a second test retains the flag indicating the highest severity.  A flagged element is not used in determining if another element should be flagged.  Elements accepted as correct are flagged R and missing elements are flagged S.</P>
+<P>&nbsp;</P>
+<P>The ship position flag is set to M when the latitude exceeds 90.0<SUP>o</SUP> or the longitude exceeds 180.0<SUP>o</SUP>.  All numeric fields are flagged M when non-numeric characters occur.  Ship call, year, month, day and hour are compared and when these elements are equal for 2 or more observations but the latitude and longitude differ, the ship positions are flagged K.  Positions on land, land-locked data, are flagged M.</P>
+<P>&nbsp;</P>
+<P>"Time continuity checks (track checks) are performed on temperature (wet bulb, dry bulb, dew point, sea surface), pressure and position.  When questionable data are encountered, it is often difficult to determine exactly which data in the series are in error.  Because the check is performed sequentially and the K flag is set based on the value of the immediately preceeding record, the K flag will not precisely identify the questionable element in all cases.  The K flag indicates that one or more observations preceeding or following the flagged observation in time sequence may be in error.  The flagged observation may or may not be in error.  A R flag may indicate that no track check was possible and the element was accepted as reported."</P>
+<P>&nbsp;</P>
+<B><P>7.   <U>Start Date:</P>
+</B></U><P>&nbsp;</P>
+<P>     1970</P>
+<P>&nbsp;</P>
+<B><P>8.   <U>Stop Date:</P>
+</B></U><P>&nbsp;</P>
+<P>     current</P>
+<P>&nbsp;</P>
+<B><P>9.   <U>Coverage:</P>
+</B><P>&nbsp;</P>
+</U><P>a.  Southernmost Latitude: 90S</P>
+<P>b.  Northernmost Latitude: 90N</P>
+<P>c.  Westernmost Longitude: 180W</P>
+<P>d.  Easternmost Longitude: 180E</P>
+<P>&nbsp;</P>
+<P>The World Meteorological Organization's Cooperative Ship Program has over 100 participating maritime countries.  The U.S. as a member of the WMO has established 17 Port Meteorological Offices (PMO), with over 1800 ships assigned to the PMO's.  Data are collected worldwide but the majority of observations are taken along established shipping routes.</P>
+<P>&nbsp;</P>
+<U><P>Division of Stations by Network, Controlling Agency, etc</U>.</P>
+<P>&nbsp;</P>
+<P>The WMO network includes three categories of stations:</P>
+<P>&nbsp;</P>
+<P>1.  Selected.  A selected class ship is equipped with a barometer, barograph, and psychrometer of suitable quality and accuracy to make precision weather observations.  The ship is also periodically visited by the Port Meteorological Officer (PMO).  Weather observations are routinely recorded and transmitted.</P>
+<P>&nbsp;</P>
+<P>2.  Supplementary.  A supplementary class ship is equipped with only a barometer and psychrometer, or cannot by visited periodically by the PMO.  These ships make, and transmit weather reports in as much of the full synoptic code format as their equipment will allow.</P>
+<P>&nbsp;</P>
+<P>3.  Auxiliary.  An auxiliary class ship is equipped with at least a barometer and thermometer of acceptable accuracy.  It may only report in storms and data sparse areas and reports weather observations in abbreviated code formats.</P>
+<P>&nbsp;</P>
+<P>The National Weather Service (NWS) manages the U.S. Voluntary Observing Ship (VOS) program of merchant vessels.  </P>
+<P>&nbsp;</P>
+<P>The National Meteorological Center (NMC) and Air Force Global Weather Central (AFGWC) provide telecommunicated marine reports worldwide.  The AFGWC input was terminated in 1982 when a new WMO code was initiated.  NMC data include fixed and drifting buoy data for the U.S. and foreign countries.</P>
+<P>&nbsp;</P>
+<P>The National Data Buoy Center (NDBC) provides U.S. fixed and drifting buoy data as well as data from the Coastal Marine Automated Network (C-MAN).  The NDBC fixed and drifting buoy data and C-MAN data are presently excluded from the main marine file (1129) and stored in a separate buoy file (1171).  Many of the NDBC observations are duplicated in the NMC data set which remains in the 1129 file.  COADS updates may replace some NMC duplicate records with NDBC data.</P>
+<P>&nbsp;</P>
+<P>The U.S. Navy Fleet Numerical Oceanography Center provides declassified weather reports from Navy ships.  The magnetic tape provided to NCDC is termed AUTODIN.</P>
+<P>&nbsp;</P>
+<B><P>10.  <U>Location:</P>
+</B></U><P>     </P>
+<P>     a. Arctic Ocean</P>
+<P>     b. Atlantic Ocean</P>
+<P>     c. Indian Ocean</P>
+<P>     d. Mediterranean Sea</P>
+<P>     e. Pacific Ocean</P>
+<P>     f. Southern Ocean</P>
+<P>     g. Global</P>
+<P>&nbsp;</P>
+<B><P>11.  <U>Keywords:</P>
+</B></U><P>&nbsp;</P>
+<P>     a.  marine data</P>
+<P>     b.  Marsden square</P>
+<P>     c.  precipitation</P>
+<P>     d.  swell</P>
+<P>     e.  temperature</P>
+<P>     f.  wave</P>
+<P>&nbsp;</P>
+<B><P>12.  <U>How to Order Data:</P>
+</B></U><P>&nbsp;</P>
+<P>     Ask NCDC's Climate Services about costs of obtaining this data set.  </P>
+<P>     Phone 828-271-4800; Fax 828-271-4876; e-mail orders@ncdc.noaa.gov</P>
+<P>&nbsp;</P>
+<B><P>13.  <U>Archiving Data Center:</P>
+</B></U><P>&nbsp;</P>
+<P>     National Climatic Data Center/NCDC</P>
+<P>     Federal Building</P>
+<P>     151 Patton Avenue</P>
+<P>     Asheville, NC  28801-5001</P>
+<P>     Voice Telephone 828-271-4994</P>
+<P>&nbsp;</P>
+<B><P>14.  <U>Technical Contact:</P>
+</B></U><P>&nbsp;</P>
+<P>     Database Administrator</P>
+<P>     National Climatic Data Center/NCDC</P>
+<P>     Federal Building</P>
+<P>     151 Patton Avenue</P>
+<P>     Asheville, NC  28801-5001</P>
+<P>     Voice Telephone 828-271-4994</P>
+<P>&nbsp;</P>
+<B><P>15.  <U>Known Uncorrected Problems:</P>
+</B></U><P>&nbsp;</P>
+<P>Errors and discrepancies in the marine data base are present because of the varying quality of the input sources, changes in observing practices, coding practices and data processing procedures throughout the history of data collection.  Users of marine data should examine the element flags and be aware of known discrepancies in certain source decks before selecting observations for research projects.  Whenever possible or economically practical, known errors or discrepancies have been corrected in the data files.  The 1129 data from 1970 to the present and the COADS data have been reviewed extensively and most errors have been corrected.  COADS data for the 1970 decade replaced the <U>70's Decade</U> data in the archive.  Pre-1970 COADS data are provided to users unless they specify a different tape deck when ordering.</P>
+<P>&nbsp;</P>
+<U><P>Errors and Discrepancies</P>
+</U><P>&nbsp;</P>
+<U><P>Monterey - Fleet Numerical Oceanography Center - Deck 555</P>
+</U><P>&nbsp;</P>
+<P>From 1966-1973 the only available telecommunication source for marine data was the Monterey data, deck 555.  Comparison of data from this deck with manuscript sources shows that temperatures are frequently .5<SUP>o</SUP>C to 1.5<SUP>o</SUP>C higher than temperatures from other sources.  Limited reviews of other weather elements in deck 555 indicate that they may also be questionable.  In addition, a significant amount of landlocked data suggests possible location problems.  Data from deck 555 should be used with caution.</P>
+<P>&nbsp;</P>
+<U><P>Sea Temperature Indicator</P>
+</U><P>&nbsp;</P>
+<P>The sea surface temperature method indicator, bucket or intake, for US ships was not well documented prior to April 1973.  The indicator is available only for manuscript reports and is frequently left blank.  Beginning in 1982, the indicator is B = bucket, I = Intake and blank = unknown.  Prior to 1982, blank meant Intake or unknown.  Since intake or injection temperature may be taken several meters below the surface depending on the size and load of the ship, the temperature may vary from the actual sea surface temperature.</P>
+<P>&nbsp;</P>
+<U><P>Wind Speed and Direction</P>
+</U><P>&nbsp;</P>
+<P>Wind speed has been estimated by the state of the sail and the state of the sea, and measured by instruments.  Scales have changed from Beaufort to knots and meters per second.  Similar estimates of direction based on different compass code scales could cause biases or limited precision in these measurements depending on data source and date of observation.</P>
+<P>&nbsp;</P>
+<U><P>Wave and Swell</P>
+</U><P>&nbsp;</P>
+<P>WMO code changes were initiated for these fields in July 1963 and January 1968.  Prior to July 1963, only the higher of sea or swell was reported and placed in the sea wave field.  Some countries made the appropriate changes on the effective date while others continued with old code for indefinite periods.  Conversion procedures assumed that code changes were made as specified when they may not have been made.  Period of wave and swell should be considered questionable, particularly for foreign exchange data prior to 1968.</P>
+<P>&nbsp;</P>
+<U><P>NMC Time Blocks</P>
+</U><P>&nbsp;</P>
+<P>NMC source data (deck 890) are arranged in synoptic time blocks, 00Z, 06Z, 12Z and 18Z.  Time is reported in hundredths of hours.  The 00Z block contains data from 20.50 hours on the previous day to 02.99 hours on the current day.  The day is given in a separate header record at the beginning of each block.</P>
+<P>&nbsp;</P>
+<P>When the NMC conversion programs were written, only synoptic time ship data reported in whole hours was provided.  Data reported at 2100, 2200 and 2300 hours were assigned to the previous day.  Beginning about 1980, off-hourly observation times from buoy, coastal marine automated stations (C-MAN) and occasionally research vessels were entered in the NMC records.  Observations for hours 20.50 through 20.99 were located in the 00Z time block and were truncated on conversion to 2000 hours (hour 20 in 1129 format).  Since the hour was before 2100, the day in the header was not decremented.  The result is that any observation from NMC with a time between 20.50 and 20.99 will have the wrong date, one day later than the correct date.</P>
+<P>&nbsp;</P>
+<P>In October 1985 the conversion program was changed to round the time to the nearest hour before assigning the correct date.  Data prior to the August 85 data month will have the 20Z observation misplaced by one day for deck 890 if the original input time was 20.50 to 20.99.  Regular ship observations reported at 2000 will have the proper day.</P>
+<P>&nbsp;</P>
+<U><P>Conversion of Call Sign to SHIP</P>
+</U><P>&nbsp;</P>
+<P>The NMC call sign field is 6 characters.  Other input sources have 7 character call sign fields.  This difference was overlooked when conversion programs were written.  The NMC conversion program checked the 5th position of the field and if blank, the field was accepted as a legitimate 4 character call.  If the 5th position was not blank, the 6th and 7th positions were checked.  The 7th position was actually the first position of the next NMC field (time) and was not blank.  The conversion program assumed that there was an embedded blank in the call sign (position 6) and converted the call to SHIP.</P>
+<P>&nbsp;</P>
+<P>Any five character call sign in the original NMC data, principally buoy and C-MAN stations, was changed to SHIP on conversion.  Since most of these data are replaced with the data from NDBC, only a very small amount of call sign information was lost.  This occurred generally from 1980 through the June 85 data month.  Programs were corrected in October 1985 to accept any call sign given in the input data field.  When telecommunicated data are garbled or when Navy does not wish the ship call to be known, the identification SHIP is entered in the original call field.  Other identification such as NNXX, PLAT and BUOY may be entered in the call sign field by various sources.  NCDC passes whatever call is provided on input to the 1129 format without alteration beginning with July 1985 data.</P>
+<P>&nbsp;</P>
+<U><P>Foreign Buoy Data</P>
+</U><P>&nbsp;</P>
+<P>NMC data were included in the operational processing in 1980.  Programs were written to remove fixed buoy data, identified by a code of 561, from the NMC data so that the more correct NDBC data would be entered into the data base without duplication.  The NDBC tape contained corrected data from US buoys while NMC contained both US and foreign buoys.  The conversion procedure has eliminated all foreign fixed buoy data from the data base since 1980.</P>
+<P>&nbsp;</P>
+<P>Procedures were changed for July data in October 1985.  NDBC data are stored in a separate tape deck (TD-1171).  All NMC buoy data are retained in TD-1129.  During COADS updates some of the NMC buoy records may be replaced by NDBC data.</P>
+<P>&nbsp;</P>
+<U><P>Weather Indicator (i<SUB>x</SUB>)</P>
+</U><P>&nbsp;</P>
+<P>In January 1982 the WMO initiated a new code for marine observations and a new format for international exchange of data (IMMT).  The new code includes a weather indicator (i<SUB>x</SUB>).  If the value of i<SUB>x</SUB> is 2 or 5, the present and past weather fields are not reported because there was no significant weather to report, i.e., the weather was good.</P>
+<P>&nbsp;</P>
+<P>The i<SUB>x</SUB> indicator was not keyed from manuscript and, was not carried in the WMO IMMT format or the 1129 format.  A problem arises from not archiving the i<SUB>x</SUB> indicator because it cannot be determined whether present weather is blank because it was not observed or because there was no significant weather to report.  Statistical summaries of weather are biased to good weather if all blank weather fields are considered good.  They are biased to bad weather if all blank weather fields are considered missing.</P>
+<P>&nbsp;</P>
+<P>As of January 1, 1984 the i<SUB>x</SUB> indicator is archived in position 148 of the 1129 format and as of March 1, 1985 i<SUB>x</SUB> is entered in position 79 of the IMMT format.  The i<SUB>x</SUB> weather indicator is missing from January 1982 - December 1984 for manuscript data and from January 1982 - March 1985 for foreign exchange data.  The i<SUB>x</SUB> indicator for NMC data is missing from January 1982 - December 1983 because of formatting problems on the NMC input tapes.</P>
+<P>&nbsp;</P>
+<U><P>NMC Swell Direction, Period and Height</P>
+</U><P>&nbsp;</P>
+<P>The NMC decode program searches the transmitted report for group identifiers to locate swell direction (3), swell period and height (4), and secondary swell (5).  If any of the groups is missing, the decode program may locate a special phenomena group such as 333, 444 or 555 and assume it to be the swell group.  NMC data in the data base will swell direction of 33 and swell height and period missing are erroneous data and should be disregarded.  Combinations of swell direction, period and height, and secondary swell period and height that contain the digits 33, 44, and 55 respectively are erroneous data.  These data were actually missing.  The fields should be blank filled.  The QC program will flag the swell field if direction, period or height is missing when one of the three is present.  This problem has existed since the 1982 code change.</P>
+<B><P>&nbsp;</P>
+<P>16.  <U>Quality Statement:</P>
+</B></U><P>&nbsp;</P>
+<P>The marine data base is a compilation of reports from a wide range of sources.  Observations have been obtained from ship logs, weather reporting forms, publications, automated observing platforms, global telecommunication circuits, foreign meteorological services and scientific research projects.  The quality of instruments ranges from those found aboard 19th century shipping to sophisticated electronic equipment aboard today's research vessels.  Observer qualifications vary from deck hand to trained meteorologist.</P>
+<P>&nbsp;</P>
+<P>The data quality of marine records is highly variable and dependent on the data source and year of receipt.  The NCDC retains the original observation in most cases and flags the erroneous or suspect data element.  The data have been processed under various editing routines throughout the years.  All data for 1970 to the present have been passed through this edit or a similar version used to produce the COADS data set.  Data for the 1854-1969 period were also re-edited during the COADS project.  (See COADS Release 1 for details.)</P>
+<P>&nbsp;</P>
+<B><P>17.  <U>Revision Date:</P>
+</B></U><P>&nbsp;</P>
+<P>     199802</P>
+<P>&nbsp;</P>
+<B><P>18.  <U>Source Data Sets:</P>
+</B></U><P>&nbsp;</P>
+<B><P>19.  <U>Essential Companion Data Sets:</P>
+</B></U><P>&nbsp;</P>
+<B><P>20.  <U>Derived Data Sets:</P>
+</B></U><P>&nbsp;</P>
+<B><P>21.  <U>References:</P>
+</B><P>&nbsp;</P>
+</U><B><P>22.  <U>Summary:</P>
+</B><P>&nbsp;</P>
+</U><P>This manual is a reference for data processed since 1970.  For information on data prior to 1970 the user needs the <U>TD-11 Reference Manual</U> or the <U>COADS Release 1</U> plus <U>Pre-70's COADS Formats</U>.  The <U>TD-11 Reference Manual</U> is available from NCDC.  <U>COADS Release 1</U> is available from the Data Support Section, National Center for Atmospheric Research, P. O. Box 3000, Boulder, Colorado, 80307.  The <U>Pre-70's COADS Formats</U> are being developed and should be available from NCDC in 1987.</P>
+<P>&nbsp;</P>
+<P>The purpose of this document is to provide enough information to users to enable them to understand and use the data.  The document is divided into sections, sub-sections and appendices, each presenting details on a particular aspect of the data file, its history and development.</P>
+<P>&nbsp;</P>
+<P>Section I provides an overview and history of the Marine data file.  Users will find background information and essential constants and equations used in  processing the data set.</P>
+<P>&nbsp;</P>
+<P>Appendices A-B describe the present data base structure of the Marine file, definitions of elements, the codes, flags, and a history of errors or discrepancies in the data file.</P>
+<P>&nbsp;</P>
+<U><P>Data Set Description</P>
+</U><P>&nbsp;</P>
+<U><P>Title (File Name and Aliases)</P>
+</U><P>&nbsp;</P>
+<P>The National Climatic Data Center (NCDC) data base file name is <U>Marine</U> data.  It is also referred to as <U>Surface Marine Data</U>.  <U>TD-11 (Tape Deck)</U> and <U>TDF-11 (Tape Data Family)</U>.  In the late 1960's marine data stored on punched cards were written to magnetic tape in various TD-11 formats.  An edited version of these data were used to produce marine atlases and are generally referred to as <U>Atlas tapes</U> (TD-9760) or <U>pre-70's data</U>.  In 1980 and 1982 all available marine data for the 1970's decade were merged in a standard format and known errors were removed.  The first merge (1980) was referred to as the <U>70's Rehab</U> or <U>TD-1127</U>.  Data were stored in a 140 character common format.  The 1982 merge was completed to add additional data for the 70's period, correct other errors in the data and provide a format that would accommodate the 1982 international code changes.  These 1970's data are referred to as <U>70's Decade</U> data or <U>TD-1129</U>.  They are in a 148 character format that is also used in current processing.</P>
+<P>&nbsp;</P>
+<P>From 1983-85 a joint project was undertaken to collect all available marine data sets of reasonable quality and combine them into one data base.  Members of the joint project included NCDC, Environmental Research Laboratory (ERL), National Center for Atmospheric Research (NCAR) and Cooperative Institute for Research in Environmental Sciences (CIRES).  The latter three participants are located in Boulder, Colorado and are referred to collectively as the Boulder Group in this document.  The Boulder Group has produced several data files and statistical summaries for the period 1854-1979.  The set of products is known as the Comprehensive Ocean-Atmosphere Data Set (COADS).</P>
+<P>&nbsp;</P>
+<P>One of the COADS products is a unique set of marine observations in 1129 format for 1970-79 and in a modified 1129 format for 1854-1969.  Known data problems have been corrected and most duplicate observations removed.  The set includes most NCDC marine data files, including the 70's Decade data, and data from other sources.  The modified format for pre-70's data contains supplemental and additional data fields determined by source deck number.</P>
+<P>&nbsp;</P>
+<P>The marine reports provided by the Boulder Group in 1129 format are referred to at NCDC as <U>COADS</U> data.  All other products available from NCAR such as statistical summaries and long or compressed marine reports are excluded from the meaning of the term COADS as used in this manual.</P>
+<P>&nbsp;</P>
+<P>The period of record of the current data base includes the years 1854 through the present.  Data received at NCDC after 1982 are in 1129 format regardless of data year.  Users requesting marine data from NCDC will receive 1129 formatted data for 1970 through the present year.  The COADS data will be provided for 1970-79 unless the user specifies a different set.  Pre-1970's data will be provided from the COADS set in modified 1129 format.   The modified 1129 format is the same as 1129 for tape positions 1-78 and 125-140.  Tape positions 79-124 and 141-148 contain supplemental data fields which are unique for each deck number.  Documentation for the pre-1970 marine data is available in the Marine Data Users Reference, 1854-1969.</P>
+<P>&nbsp;</P>
+<U><P>History</P>
+</U><P>&nbsp;</P>
+<U><P>Background</P>
+</U><P>&nbsp;</P>
+<P>Surface marine climatological data received at NCDC are from numerous sources:  participating maritime countries mail digitized data; the NOAA Data Buoy Center provides monthly tapes of data from Coastal Marine Automated Stations (C-MAN) and fixed buoys; tapes containing telecommunicated data are received from NMC and Navy; ships in the U.S. Voluntary Observing fleet mail manuscripts; and other special sets are added periodically.</P>
+<P>&nbsp;</P>
+<P>In July 1963, through the WMO, an establishment of standardized coding practices and the use of an international common code were introduced.  These International Maritime Meteorological Punch Card or Tape (IMMPC, IMMT) formats have since undergone code changes in 1968, 1982 and the latest in March 1985.</P>
+<P>&nbsp;</P>
+<U><P>Time Resolution of Data</P>
+</U><P>&nbsp;</P>
+<P>The marine observations are generally taken at synoptic hours, 6-hourly intervals.  Research vessels, buoys, and C-MAN stations frequently record observations more frequently, usually 3-hourly or hourly.</P>
+<P>&nbsp;</P>
+<U><P>Frequency and Type of File Updates</P>
+</U><P>&nbsp;</P>
+<P>Marine data are routinely processed on a monthly schedule.  In any one month data are received for the current data month as well as for previous months and years.  Separate tapes of the current month data and delayed data are produced.  Each month, current and delayed files are merged into two separate files, one containing the current year data and the other containing delayed data.  Once each year, an annual file is produced that contains data for the current year.  The annual file, delayed data files and duplicate data files are sent to the Environmental Research Lab (ERL), Boulder, Colorado to support the COADS project.  ERL produces 5-year duplicate-free merges that contain the delayed data and returns this set to NCDC for entry into the archive.  </P>
+<P>&nbsp;</P>
+<U><P>Duplicate Data Elimination</P>
+</U><P>&nbsp;</P>
+<P>Since marine data are obtained from many different sources and time periods, several duplicate observations are received.  Duplicates are removed during several stages of processing, but there is always the likelihood that delayed data will be received that are duplicated in a previously processed file.  For example, 1980 data received in 1984 could be a duplicate of the data processed in the 1980 annual file and the decadal file.  Merges produced during COADS updates every five years will remove duplicates for that data period.</P>
+<P>&nbsp;</P>
+<U><P>Criteria for Duplicate Identification</P>
+</U><P>&nbsp;</P>
+<P>Identification of duplicate observations would seem to be a simple task of checking for exact comparison of location, data, time, call and weather fields.  Unfortunately, different conversion techniques, editing practices and data transmission procedures of the various sources may produce slightly different element values.  For example, transmitted data may have garbled or missing elements that appear in manuscript reports or corrected data.  Foreign data have been edited to varying degrees by the country before they are sent to the U.S. and may not exactly match telecommunicated observations.</P>
+<P>&nbsp;</P>
+<P>The current duplicate elimination scheme identifies duplicate observations as exact matches between date, time, latitude and longitude (a difference of .1 degree is accepted) and call sign.  The observation with the best (lowest) quality code (see Table 2) is retained.  If the quality code is the same, the observation with the highest deck number is retained.</P>
+<P>&nbsp;</P>
+<U><P>Equations and Elements</P>
+</U><P>&nbsp;</P>
+<U><P>Equations Used in Processing </P>
+<P>&nbsp;</P>
+<P>Marsden Square</P>
+</U><P>&nbsp;</P>
+<U><P>10<SUP>o</SUP> Squares</P>
+</U><P>&nbsp;</P>
+<P>Marsden introduced this numbering system in the early nineteenth century as a means of identifying the geographic location of oceanographic and meteorological data.  The Marsden square grid consists of 10<SUP>o</SUP> latitude-longitude boxes.  A Marsden square map is shown in Figure 1.  The numbering begins at the intersection of the equator and the zero or Greenwich meridian.  The square between 0<SUP>o</SUP> and 10<SUP>o</SUP> West longitude and 0<SUP>o</SUP> and 10<SUP>o</SUP> North latitude is numbered <U>001</U> and numbering continues westward through 360<SUP>o</SUP> of longitude to Marsden square <U>036</U>.  Marsden square <U>037</U> is directly north of Marsden square 001, Marsden square <U>073</U> is directly north of Marsden square <U>037</U>, etc.; this continues up to 80<SUP>o</SUP> North latitude with the last 10<SUP>o</SUP> Marsden square in the 70<SUP>o</SUP> - 80<SUP>o</SUP> latitude band numbered <U>288</U>.  The 10<SUP>o</SUP> squares between 80<SUP>o</SUP> - 90<SUP>o</SUP> North are numbered sequentially from 901 beginning at the Greenwich meridian and proceeding westward as before.  (NOTE:  The squares above 80<SUP>o</SUP> North were numbered after meteorological data became available from the floating Ice Islands in the Arctic and long after the 300-623 numbers had been assigned to the squares in the southern hemisphere.  This explains the break in the numbering system, for by continuing in sequence above 80<SUP>o</SUP> North, the numbers assigned to the squares would have reached 324, thus duplicating those already assigned in the southern hemisphere.  The numbering system for the southern hemisphere is similar to that in the northern hemisphere with the first square below <U>001</U> beginning with Marsden square <U>300</U> and the last concluding with Marsden square 623.  In all cases, the numbering of the 10<SUP>o</SUP> Marsden squares proceeds westward from the Greenwich meridian.  Marsden squares are always identified by a three digit number (001, 064, etc.) while the 1<SUP>o</SUP> sub-squares are always identified by a two digit number.</P>
+<P>&nbsp;</P>
+<U><P>1<SUP>o</SUP> Squares</P>
+</U><P>&nbsp;</P>
+<P>There are one hundred 1<SUP>o</SUP> sub-squares in each Marsden square with the sub-squares coded <U>00</U> through <U>99</U>.  The method of numbering the sub-squares depends upon the world quadrant in which the Marsden square is located and care must be taken to properly identify the location.  Sub-squares are always oriented so that the lowest number (00) is nearest the intersection of the equator and the 0<SUP>o</SUP> (Greenwich) meridian.  The final position should always be checked against latitude and longitude.  The number of the sub-square is obtained by taking the last digit (units) of the whole degrees of latitude and longitude reported.  A ship observation reported at 2<U>7</U><SUP>o</SUP> 55' North latitude and 3<U>1</U><SUP>o</SUP> 28' West longitude would be in sub-square 71 of Marsden square 076.  This is another way of remembering that the positions of sub-squares within a Marsden square change from one quadrant of the world to another.</P>
+<P>&nbsp;</P>
+<U><P>Calculation of Marsden Square</P>
+</U><P>&nbsp;</P>
+<P>1.  The tens digit of latitude is multiplied by 36 giving A.</P>
+<P>&nbsp;</P><DIR>
+
+<P>2.&#9;The longitude is divided by 10 and the decimal portion truncated (not rounded).  The quotient is increased by one giving B.</P>
+<P>&nbsp;</P>
+<P>3.&#9;If the quadrant is 2 or 4, B is subtracted from 37 giving C.  C is added to A giving D.</P>
+<P>&nbsp;</P>
+<P>a. If the quadrant is 2 and the latitude is less than 80<SUP>o</SUP>, the Marsden square is D.</P>
+<P>&nbsp;</P>
+<P>b. If the quadrant is 2 and the latitude is 80<SUP>o</SUP> or greater, the Marsden square is D plus 612.</P>
+<P>&nbsp;</P>
+<P>c. If the quadrant is 4, the Marsden square is D plus 299.</P>
+<P>&nbsp;</P></DIR>
+
+<P>4.  If the quadrant is 1 or 3, add A to B giving E.</P>
+<P>&nbsp;</P><DIR>
+
+<P>a. If the quadrant is 1 and the latitude is less than 80<SUP>o</SUP>, the Marsden square is E.</P>
+<P>&nbsp;</P>
+<P>b. If the quadrant is 1 and the latitude is 80<SUP>o</SUP> or greater, the Marsden square is E plus 612.</P>
+<P>&nbsp;</P>
+<P>c. If the quadrant is 3, the Marsden square is E plus 299.</P>
+<P>&nbsp;</P></DIR>
+
+<P>The quadrant used in this derivation is NCDC quadrant.  See <U>NCDC Quadrant.</P>
+</U><P>&nbsp;</P>
+<P>Example:  latitude 83.7, longitude 118.6, quadrant 1.</P>
+<P>&nbsp;</P>
+<P>          A = 36 x 8 = 288</P>
+<P>          B = 113.6 - 10 = 11.36; 11 + 1 = 12</P>
+<P>&nbsp;</P>
+<P>Since the quadrant is 1, E = A+B=288+12 = 300</P>
+<P>Since the latitude is greater than 80, </P>
+<P>the Marsden square = E + 612 = 300+612 = 912</P>
+<P>&nbsp;</P>
+<P>If the latitude is equal to 90.0, it is changed to 89.9 to calculate the correct Marsden square only.  The original value of 90.0 is retained in the data base.</P>
+<P>&nbsp;</P>
+<P>When a ship is positioned exactly on 180.0<SUP>o</SUP> longitude the Marsden square given is the square into which the ship is headed.  For example, a ship located at 180.0<SUP>o</SUP> and 83.0<SUP>o</SUP>N in quadrant 1 will be in Marsden square 918 headed into 919.  The Marsden square given in the data record will be 919 and quadrant will be retained as 1.</P>
+<P>&nbsp;</P>
+<U><P>Dew-Point Temperature</P>
+</U><P>&nbsp;</P>
+<P>Dew-point temperatures are based on equations given in the Smithonsian Meteorological Tables.  Vapor pressures E and E<SUB>s</SUB> are based on the Goff-Gratch formulation.</P>
+<P>&nbsp;</P>
+<P>TD = T-(X(14.55 + .114T) + (X(2.5  + .007))<SUP>3</SUP>)</P>
+<P>if the relative humidity is less than 40% a third term is added;</P>
+<P>&nbsp;</P>
+<P>TD = T-(X(14.55 + .114T) + (X(2.5 + .007T))<SUP>3</SUP> + (15.9 + .117T)X<SUP>14</SUP>)</P>
+<P>&nbsp;</P>
+<P>where:</P>
+<P>&nbsp;</P>
+<P>T = dry-bulb temperature <SUP>o</SUP>C</P>
+<P>X = 1-U         U = relative humidity</P>
+<P>&nbsp;</P>
+<P>The relative humidity U = E/E<SUB>s</SUB>.</P>
+<P>&nbsp;</P>
+<P>E  = 33.8639((.8072 + .00738W)<SUP>8</SUP> - .000019(48 + 1.8W) + .001316)</P>
+<P>              -000066P(1 + .00115W)(T-W)</P>
+<P>&nbsp;</P>
+<P>E<SUB>s</SUB> = 33,8639((.8072 + .00738T)<SUP>8</SUP> - .000019(48 + 1.8T) + .001316)</P>
+<P>&nbsp;</P>
+<P>where:</P>
+<P>&nbsp;</P>
+<P>W = wet-bulb temperature <SUP>o</SUP>C</P>
+<P>P = pressure in mb</P>
+<P>&nbsp;</P>
+<P>Dew-point temperature is calculated for international exchange observations (926) and manuscript observations (927) whenever the value is missing in the original record and the dry-bulb and wet-bulb  temperature  are -30<SUP>o</SUP>C or higher.</P>
+<P>&nbsp;</P>
+<U><P>Wet-Bulb Temperature</P>
+</U><P>&nbsp;</P>
+<P>Wet-bulb temperatures are computed based on empirical equations derived by Julius Bosen and revised by J. N. Johnson in the Naval Weather Service Technical Note #7 (1963).  Temperatures must be input in degrees Fahrenheit.</P>
+<P>&nbsp;</P>
+<P>For Fahrenheit temperatures equal to or greater than 0<SUP>o</SUP>;</P>
+<P>&nbsp;</P>
+<P>TW = T - (.034A - .00072AB)(T +TD - 2D + 108)</P>
+<P>&nbsp;</P>
+<P>For Fahrenheit temperatures below 0<SUP>o</SUP>;</P>
+<P>&nbsp;</P>
+<P>TW = T - (.034A - .006A<SUP>2</SUP>)(.6(T-TD) - 2D + 108)</P>
+<P>&nbsp;</P>
+<P>where:</P>
+<P>&nbsp;</P>
+<P>T = dry-bulb temperature <SUP>o</SUP>F</P>
+<P>A = (T - TD)/10</P>
+<P>B = A - 1</P>
+<P>D = P/33.8639</P>
+<P>P = pressure in mb</P>
+<P>&nbsp;</P>
+<P>Wet-bulb temperatures are calculated for international exchange data (926), manuscript (927), NMC (890), Buoy (882) and AUTODIN (889) data whenever the value is missing and the dry-bulb and dew-point temperatures are -30<SUP>o</SUP>C or greater.  Prior to 1982, wet-bulb temperature was also calculated for GWC (888) before its removal as a data source in 1982.</P>
+<P>&nbsp;</P>
+<U><P>NCDC Quadrant</P>
+</U><P>&nbsp;</P>
+<P>The NCDC devised its own code for quadrant several years ago which differs from WMO code.  All marine data in the NCDC 1129 data base for the period 1854 through the present time contain the NCDC quadrant code.  Conversions from WMO octant and quadrant and from Cardinal direction (E, W, N, S) provided in original buoy data are:</P>
+<P>&nbsp;</P>
+<P>                   WMO         WMO            Buoy            NCDC</P>
+<P>                  <U>Octant</U>     <U>Quadrant</U>     <U>Lat</U>      <U>Long</U>     <U>Quadrant</U> </P>
+<P>&nbsp;</P>
+<P>              0    (0-90W)      7          N         W          1</P>
+<P>              1   (90-180W)</P>
+<P>              2  (180-90E)      1          N         E          2</P>
+<P>              3  (90E-0)</P>
+<P>              5    (0-90W)      5          S         W          3</P>
+<P>              6   (90-180W)</P>
+<P>              7  (180-90E)      3          S         E          4</P>
+<P>              8   (90-0E)</P>
+<P>&nbsp;</P>
+<P>The incoming NMC data records do not contain quadrant.  The NCDC quadrant is calculated from <U>+</U> Latitude and 0 - 360<SUP>o</SUP> Longitude:</P>
+<P>&nbsp;</P>
+<P>1.  Check latitude sign, + or -</P>
+<P>         If - , quadrant = 2</P>
+<P>         If + , quadrant = 0</P>
+<P>&nbsp;</P><DIR>
+
+<P>2.&#9;If the longitude is greater than or equal to 180, add 2 to the quadrant computed under #1.</P>
+<P>&nbsp;</P>
+<P>3.&#9;If the longitude is less than 180, add 1 to the quadrant.</P>
+<P>&nbsp;</P></DIR>
+
+<U><P>Visibility Code</P>
+</U><P>&nbsp;</P>
+<P>Incoming data from NDBC provide visibility measured in nautical miles.  The conversion to WMO (and 1129) code is:</P>
+<P>&nbsp;</P>
+<P>      Nautical                                Nautical</P>
+<P>      <U>_Miles__</U>              <U>Code</U>              <U>_Miles__</U>             <U>Code</P>
+</U><P>&nbsp;</P>
+<P>         &lt;.1                 90                2.0 -  4.9            96</P>
+<P>       .1 -  .3              92                5.0 -  9.9            97</P>
+<P>       .4 -  .5              93               10.0 - 24.9            98</P>
+<P>       .6 - 1.0              94                    25+               99</P>
+<P>      1.1 - 1.9              95</P>
+<P>&nbsp;</P>
+<U><P>Wave Period</P>
+</U><P>&nbsp;</P>
+<P>Incoming data from NDBC provide average wave period data in seconds.  The conversion to WMO (and 1129) code is:</P>
+<P>&nbsp;</P>
+<P>      <U>Seconds</U>          <U>Code</U>             <U>Seconds</U>            <U>Code</P>
+</U><P>&nbsp;</P>
+<P>&lt;5.5                    2             13.5 - 15.4             7</P>
+<P> 5.5 -  7.4             3             15.5 - 17.4             8</P>
+<P> 7.5 -  9.4             4             17.5 - 19.4             9</FONT><FONT FACE="Lucida Console"> </P>
+</FONT><FONT FACE="Courier New" SIZE=2><P> 9.5 - 11.4             5             19.5 - 21.4             0</P>
+<P>11.5 - 13.4             6<B>                    21.5+            1</P></B></FONT></BODY>
+</HTML>

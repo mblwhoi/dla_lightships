@@ -1,0 +1,160 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+   <TITLE>Format for NODC Repeating Data Groups for SD2 and STD Files</TITLE>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/3.01SGoldC-SGI (X11; I; IRIX64 6.4 IP27) [Netscape]">
+</HEAD>
+<BODY TEXT="#000000" BGCOLOR="#FFF8DC" LINK="#0000EE" VLINK="#551A8B" ALINK="#FF0000">
+
+<H1 ALIGN=CENTER><FONT COLOR="#3333FF">Format of .ROM Files</FONT></H1>
+
+<P>
+<HR></P>
+
+<CENTER><TABLE CELLPADDING=3 BGCOLOR="#FFF8DC" >
+<TR VALIGN=BOTTOM>
+<TD ALIGN=LEFT><B><FONT FACE="Arial">field name</FONT></B></TD>
+
+<TD ALIGN=CENTER><B><FONT FACE="Arial">position (char)</FONT></B></TD>
+
+<TD ALIGN=LEFT><B><FONT FACE="Arial">description</FONT></B></TD>
+</TR>
+
+<TR VALIGN=BOTTOM>
+<TD ALIGN=LEFT><FONT FACE="Arial">quad</FONT></TD>
+
+<TD ALIGN=CENTER><FONT FACE="Arial">1</FONT></TD>
+
+<TD ALIGN=LEFT><FONT FACE="Arial">WMO quad, quadrant code 1=NE, 3=SE, 5=SW,
+7=NW</FONT></TD>
+</TR>
+
+<TR VALIGN=BOTTOM>
+<TD ALIGN=LEFT><FONT FACE="Arial">latitude</FONT></TD>
+
+<TD ALIGN=CENTER STYLE="vnd.ms-excel.numberformat:d-mmm"><FONT FACE="Arial">2</FONT></TD>
+
+<TD ALIGN=LEFT><FONT FACE="Arial">latitude (DDMM)</FONT></TD>
+</TR>
+
+<TR VALIGN=BOTTOM>
+<TD ALIGN=LEFT><FONT FACE="Arial">longitude</FONT></TD>
+
+<TD ALIGN=CENTER><FONT FACE="Arial">6</FONT></TD>
+
+<TD ALIGN=LEFT><FONT FACE="Arial">longitude (DDMM)</FONT></TD>
+</TR>
+
+<TR VALIGN=BOTTOM>
+<TD ALIGN=LEFT><FONT FACE="Arial">date</FONT></TD>
+
+<TD ALIGN=CENTER><FONT FACE="Arial">11</FONT></TD>
+
+<TD ALIGN=LEFT><FONT FACE="Arial">Date (YYMMDD)</FONT></TD>
+</TR>
+
+<TR VALIGN=BOTTOM>
+<TD ALIGN=LEFT><FONT FACE="Arial">time</FONT></TD>
+
+<TD ALIGN=CENTER><FONT FACE="Arial">17</FONT></TD>
+
+<TD ALIGN=LEFT><FONT FACE="Arial">Time (hours to tenths)</FONT></TD>
+</TR>
+
+<TR VALIGN=BOTTOM>
+<TD ALIGN=LEFT><FONT FACE="Arial">vessel</FONT></TD>
+
+<TD ALIGN=CENTER><FONT FACE="Arial">20</FONT></TD>
+
+<TD ALIGN=LEFT><FONT FACE="Arial">NODC ship code; 2 char country code +
+2char vessel code</FONT></TD>
+</TR>
+
+<TR VALIGN=BOTTOM>
+<TD ALIGN=LEFT><FONT FACE="Arial">num_dep_temp</FONT></TD>
+
+<TD ALIGN=CENTER><FONT FACE="Arial">24</FONT></TD>
+
+<TD ALIGN=LEFT><FONT FACE="Arial">number of depth-temp obs in record</FONT></TD>
+</TR>
+
+<TR VALIGN=BOTTOM>
+<TD ALIGN=LEFT><FONT FACE="Arial">data_type</FONT></TD>
+
+<TD ALIGN=CENTER><FONT FACE="Arial">27</FONT></TD>
+
+<TD ALIGN=LEFT><FONT FACE="Arial">NODC archive data type 3=MBT, 4=XBT etc</FONT></TD>
+</TR>
+
+<TR VALIGN=BOTTOM>
+<TD ALIGN=LEFT><FONT FACE="Arial">cruise</FONT></TD>
+
+<TD ALIGN=CENTER><FONT FACE="Arial">28</FONT></TD>
+
+<TD ALIGN=LEFT><FONT FACE="Arial">NODC-assigned cruise number</FONT></TD>
+</TR>
+
+<TR VALIGN=BOTTOM>
+<TD ALIGN=LEFT><FONT FACE="Arial">station</FONT></TD>
+
+<TD ALIGN=CENTER><FONT FACE="Arial">33</FONT></TD>
+
+<TD ALIGN=LEFT><FONT FACE="Arial">NODC-assigned station number</FONT></TD>
+</TR>
+
+<TR VALIGN=BOTTOM>
+<TD ALIGN=LEFT><FONT FACE="Arial">depth_1</FONT></TD>
+
+<TD ALIGN=CENTER><FONT FACE="Arial">37</FONT></TD>
+
+<TD ALIGN=LEFT><FONT FACE="Arial">First depth whole meters</FONT></TD>
+</TR>
+
+<TR VALIGN=BOTTOM>
+<TD ALIGN=LEFT><FONT FACE="Arial">temperature_1</FONT></TD>
+
+<TD ALIGN=CENTER><FONT FACE="Arial">41</FONT></TD>
+
+<TD ALIGN=LEFT><FONT FACE="Arial">First temperature (deg C to hundredths)</FONT></TD>
+</TR>
+
+<TR VALIGN=BOTTOM>
+<TD ALIGN=LEFT><FONT FACE="Arial">depth_2</FONT></TD>
+
+<TD ALIGN=CENTER><FONT FACE="Arial">45</FONT></TD>
+
+<TD ALIGN=LEFT><FONT FACE="Arial">&nbsp;</FONT></TD>
+</TR>
+
+<TR VALIGN=BOTTOM>
+<TD ALIGN=LEFT><FONT FACE="Arial">temperature_2</FONT></TD>
+
+<TD ALIGN=CENTER><FONT FACE="Arial">49</FONT></TD>
+
+<TD ALIGN=LEFT><FONT FACE="Arial">&nbsp;</FONT></TD>
+</TR>
+
+<TR VALIGN=BOTTOM>
+<TD ALIGN=LEFT><FONT FACE="Arial">depth_3</FONT></TD>
+
+<TD ALIGN=CENTER><FONT FACE="Arial">53</FONT></TD>
+
+<TD ALIGN=LEFT><FONT FACE="Arial">&nbsp;</FONT></TD>
+</TR>
+
+<TR VALIGN=BOTTOM>
+<TD ALIGN=LEFT><FONT FACE="Arial">temperature_3</FONT></TD>
+
+<TD ALIGN=CENTER><FONT FACE="Arial">57</FONT></TD>
+
+<TD ALIGN=LEFT><FONT FACE="Arial">&nbsp;</FONT></TD>
+</TR>
+</TABLE></CENTER>
+
+<CENTER><P><A HREF="index.html">Return to lighship list<BR>
+</A><I><FONT SIZE=-1>Last Updated on 1/13/99</FONT></I> <BR>
+<I><FONT SIZE=-1>By Kathryn L. Elder</FONT></I> </P></CENTER>
+
+</BODY>
+</HTML>
